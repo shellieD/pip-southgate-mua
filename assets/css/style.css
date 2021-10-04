@@ -1,3 +1,73 @@
-body {
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Raleway, sans-serif;
+    color: #404028;
+}
+
+/* headings and logos */
+h1, h2 {
+    font-family: 'Poiret One', sans-serif;
+    color: #404028;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-top: 15px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+/* end of headings and logos */
+
+/* navigation links */
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#menu a:hover {
+    border-bottom: 1px #404028 solid;
+}
+
+#menu .active {
+    border-bottom: 1px #404028 solid;
+}
+
+/* end of navigation links */
+
+/* hero image and overlay text */
+
+#hero-image {
+    clear: both;
+}
+
+/* end of hero image and overlay text */
+
+/* footer and social media links */
