@@ -105,6 +105,35 @@ h1 {
 
 /* end of hero image and overlay text */
 
+/* about page images and text boxes */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#about-top-left {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(191, 165, 166, .9);
+    top: 30px;
+    left: 200px;
+    position: absolute;
+}
+
+#about-bottom-right {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(191, 165, 166, .9);
+    bottom: 30px;
+    right: 200px;
+    position: absolute;
+}
+/*  end of about page images and text boxes */
+
+
 /* footer and social media links */
  
 footer {
