@@ -64,7 +64,7 @@ h1 {
 
 /* hero image and overlay text */
 
-#hero-container {
+#page-banner{
     clear: both;
     height: 800px;
     width: 100%;
@@ -110,7 +110,7 @@ h1 {
 footer {
     padding: 0;
     margin: 0;
-    height: 100px;
+    height: 75px;
     position: relative; 
     bottom: 0;
 }
