@@ -90,7 +90,7 @@ h1 {
     letter-spacing: 4px;
 
     width: 300px;
-    height: 220px;
+    height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -116,20 +116,47 @@ h1 {
 
 #about-top-left {
     width: 600px;
-    height: 400px;
+    height: 350px;
     background-color: rgba(191, 165, 166, .9);
     top: 30px;
     left: 200px;
     position: absolute;
+    padding-bottom: 10px;
+}
+
+#image-top-right {
+    width: 600px;
+    height: 350px;
+    top: 30px;
+    right: 75px;
+    position: absolute;
+}
+
+#image-top-right img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #about-bottom-right {
     width: 600px;
-    height: 400px;
+    height: 350px;
     background-color: rgba(191, 165, 166, .9);
     bottom: 30px;
     right: 200px;
     position: absolute;
+}
+
+#image-bottom-left {
+    width: 600px;
+    height: 350px;
+    bottom: 30px;
+    left: 275px;
+    position: absolute;
+}
+
+#image-bottom-left img {
+    max-width: 100%;
+    max-height: 100%;
 }
 /*  end of about page images and text boxes */
 
