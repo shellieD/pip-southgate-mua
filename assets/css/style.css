@@ -81,6 +81,8 @@ h1 {
 #hero-image {
     height: 800px;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background: url('../images/flower-bride.jpeg') no-repeat center center;
 }
 
@@ -171,10 +173,6 @@ h1 {
     max-height: 100%;
 }
 
-hr {
-    border-top: 1px solid #404028;
-    width: 100%;
-}
  /*end of about page images and text boxes */
 
 /* photo gallery */
@@ -186,6 +184,8 @@ hr {
     column-count: 4;
     column-gap: 0;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #photos > img {
@@ -197,6 +197,25 @@ hr {
 }
 
 /* end of photo gallery */
+
+/* Price List */
+
+#price-list {
+    height: 800px;
+    width: 600px;
+    background-color: rgba(191, 165, 166, .9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#price-list h1 {
+    font-family: 'Poiret One', sans-serif;
+    padding: 20px;
+    font-size: 2em;
+}
 
 /* footer and social media links */
  
