@@ -115,10 +115,10 @@ h1 {
 /* About section images and text boxes*/
 
 #flex-container-top, #flex-container-bottom {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 #about-top-left, #about-bottom-right {
@@ -126,7 +126,6 @@ h1 {
     height: auto;
     background-color: rgba(191, 165, 166, .9);
     padding: 20px;
-    box-sizing: border-box;
 }
 
 #about-top-left h1, #about-bottom-right h1{
@@ -140,20 +139,17 @@ h1 {
 
 #about-top-left {
     margin-top: 30px;
-    margin-left: 200px;
 } 
 
 #about-bottom-right {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 200px;
 } 
 
 #image-top-right {
     width: 600px;
     height: 350px;
     margin-top: 30px;
-    margin-right: 200px;
 }
 
 #image-top-right img {
@@ -166,7 +162,6 @@ h1 {
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 200px;
 }
 
 #image-bottom-left img {
@@ -240,6 +235,65 @@ h1 {
 #price-list p {
     margin-bottom: 25px;
 }
+/* End of Price-List page*/
+
+/* Contact Page*/
+#contact-form h2 {
+    font-family: 'Poiret One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contact-form {
+    height: auto;
+    width: 600px;
+    background-color: rgba(191, 165, 166, .9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+#contact-form label {
+    margin-left: 10px;
+}
+
+input { 
+    background-color: rgba(191, 165, 166, .9);
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgba(191, 165, 166, .9);
+    box-sizing: border-box;
+    font-family: Raleyway, sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+    color:#404028;
+  }
+
+#name {
+    width: 80%;
+    margin: 8px 0;
+  }
+
+#email, #telephone {
+    width: 35%;
+    margin: 8px 0;
+  }
+
+#date, #time {
+    width: 25%;
+    margin: 8px 0;
+}
+textarea {
+    width: 80%;
+    background-color: rgba(191, 165, 166, .9);
+    margin-left: 10px;
+    font-family: Raleyway, sans-serif;
+    color: #404028;
+}
+
+/* end of Contact Page */
+
+
 
 /* footer and social media links */
  
