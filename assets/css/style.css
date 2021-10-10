@@ -117,12 +117,13 @@ h1 {
 #flex-container-top, #flex-container-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #about-top-left, #about-bottom-right {
     width: 600px;
-    height: 350px;
+    height: auto;
     background-color: rgba(191, 165, 166, .9);
     padding: 20px;
     box-sizing: border-box;
@@ -130,6 +131,7 @@ h1 {
 
 #about-top-left h1, #about-bottom-right h1{
     font-size: 2em;
+    text-align: center;
 }
 
 #about-top-left p, #about-bottom-right p {
@@ -139,14 +141,13 @@ h1 {
 #about-top-left {
     margin-top: 30px;
     margin-left: 200px;
-}
+} 
 
 #about-bottom-right {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 200px;
-    
-}
+} 
 
 #image-top-right {
     width: 600px;
@@ -173,6 +174,11 @@ h1 {
     max-height: 100%;
 }
 
+#kevyn-aucion-quote {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+}
+
  /*end of about page images and text boxes */
 
 /* photo gallery */
@@ -182,7 +188,7 @@ h1 {
     width: 80%;
     line-height: 0;
     column-count: 4;
-    column-gap: 0;
+    column-gap: 1;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -190,6 +196,7 @@ h1 {
 
 #photos > img {
     width: 100%;
+    padding-top: 10px;
 }
 
 .zoom:hover {
@@ -201,7 +208,7 @@ h1 {
 /* Price List */
 
 #price-list {
-    height: 800px;
+    height: auto;
     width: 600px;
     background-color: rgba(191, 165, 166, .9);
     margin-left: auto;
@@ -214,7 +221,24 @@ h1 {
 #price-list h1 {
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
+    font-size: 3em;
+}
+
+#price-list h2, {
+    font-family: Raleway, sans-serif;
+    margin-bottom: 5px;
     font-size: 2em;
+}
+
+#price-list h3 {
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+
+#price-list p {
+    margin-bottom: 25px;
 }
 
 /* footer and social media links */
