@@ -310,6 +310,18 @@ textarea {
     margin-right: 50px;
 }
 
+.submit-button {
+    float: right;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Poiret One', sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    background-color: #797861;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+}
 /* end of Contact Page */
 
 /* Request Page */
@@ -325,11 +337,7 @@ textarea {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: left;
-}
-
-#request-page-content {
-    font-size: 3em;
+    font-size: 2em;
     font-family: Raleway, sans-serif;
     text-align: center;
 }
@@ -339,6 +347,18 @@ textarea {
     margin: 30px;
 }
 
+#thank-you-image {
+    height: 500px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("../images/pexels-kinkate-205923.webp") no repeat center center;
+    position: relative;
+}
+
+.pip {
+    font-family: 'Poiret One', sans-serif;
+}
 /* footer and social media links */
  
 footer {
