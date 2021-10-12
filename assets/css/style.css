@@ -71,11 +71,10 @@ h1 {
 
 #page-banner {
     clear: both;
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow: hidden;
-    position: relative;
-    background: url("../images/wood.jpg") center center;
+    background: url("../images/wood.webp") center center;
 }
 
 #hero-image {
@@ -83,7 +82,7 @@ h1 {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    background: url('../images/flower-bride.jpeg') no-repeat center center;
+    background: url('../images/flower-bride.webp') no-repeat center center;
 }
 
 #overlay-text, #overlay-text h2, #overlay-text p {
@@ -93,6 +92,7 @@ h1 {
 #overlay-text {
     font-size: 130%;
     font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -229,6 +229,7 @@ h1 {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 #price-list h1 {
@@ -237,16 +238,15 @@ h1 {
     font-size: 3em;
 }
 
-#price-list h2, {
-    font-family: Raleway, sans-serif;
+#price-list h2 {
+    font-family: 'Poiret One', sans-serif;
     margin-bottom: 5px;
     font-size: 2em;
 }
 
 #price-list h3 {
-    font-family: 'Poiret One', sans-serif;
+    font-family: Raleway, sans-serif;
     margin-bottom: 5px;
-    font-size: 2em;
 }
 
 
@@ -257,7 +257,7 @@ h1 {
 
 /* Contact Page*/
 #contact-form h2 {
-    font-family: 'Poiret One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poiret One', sans-serif;
 }
 #contact-form {
     height: auto;
@@ -270,16 +270,26 @@ h1 {
     text-align: left;
 }
 #contact-form label {
-    margin-left: 10px;
+    float: left;
+    text-align: right;
+    margin: 10px;
 }
 
 input { 
     background-color: rgba(191, 165, 166, .9);
     padding: 12px 20px;
     display: inline-block;
-    border: 1px solid rgba(191, 165, 166, .9);
+    border: 1px solid #998081;
+    border-radius: 4px;
     box-sizing: border-box;
     font-family: Raleyway, sans-serif;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input:focus {
+    border: 3px solid #404028;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -287,26 +297,16 @@ input[type=number]::-webkit-inner-spin-button {
     color:#404028;
   }
 
-#name {
-    width: 80%;
-    margin: 8px 0;
-  }
-
-#email, #telephone {
-    width: 35%;
-    margin: 8px 0;
-  }
-
-#date, #time {
-    width: 25%;
-    margin: 8px 0;
-}
 textarea {
     width: 80%;
     background-color: rgba(191, 165, 166, .9);
-    margin-left: 10px;
+    border: 1px solid #998081;
+    border-radius: 4px;
     font-family: Raleyway, sans-serif;
     color: #404028;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* end of Contact Page */
@@ -332,8 +332,9 @@ footer {
     padding: 0;
     margin: 0;
     height: 75px;
-    position: relative; 
+    width: 100%;
     bottom: 0;
+    background-color:#fafafa;
 }
 
 footer p {
