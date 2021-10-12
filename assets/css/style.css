@@ -97,7 +97,7 @@ h1 {
     letter-spacing: 4px;
 
     width: 300px;
-    height: auto;
+    height: 220px;
     border-radius: 4px;
 
     padding-top: 40px;
@@ -120,8 +120,7 @@ h1 {
     font-weight: bold;
     background-color: #797861;
     padding: 5px;
-    margin: 5px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 4px;
 }
 
@@ -312,7 +311,20 @@ textarea {
 
 /* end of Contact Page */
 
+/* Request Page */
 
+
+/* End of Request Page */
+
+#request-page-image {
+height: 100%;
+width: 50%;
+align-items: center;
+margin-top: 30px;
+margin-bottom: 30px;
+background: url('/assets/images/pexels-kinkate-205923.jpg') no-repeat center center;
+overflow: hidden;
+}
 
 /* footer and social media links */
  
