@@ -10,6 +10,7 @@ body {
     font-family: Raleway, sans-serif;
     color: #404028;
     top: 150px;
+    background-color: #fafafa;
 }
 
 /* headings and logos */
@@ -302,7 +303,7 @@ textarea {
     background-color: rgba(191, 165, 166, .9);
     border: 1px solid #998081;
     border-radius: 4px;
-    font-family: Raleyway, sans-serif;
+    font-family: Raleway, sans-serif;
     color: #404028;
     width: 500px;
     margin-left: 50px;
@@ -316,14 +317,26 @@ textarea {
 
 /* End of Request Page */
 
-#request-page-image {
-height: 100%;
-width: 50%;
-align-items: center;
-margin-top: 30px;
-margin-bottom: 30px;
-background: url('/assets/images/pexels-kinkate-205923.jpg') no-repeat center center;
-overflow: hidden;
+#request-page-content {
+    height: auto;
+    width: 600px;
+    background-color: rgba(191, 165, 166, .9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#request-page-content {
+    font-size: 3em;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+#thank-you {
+    padding: 30px;
+    margin: 30px;
 }
 
 /* footer and social media links */
@@ -334,7 +347,6 @@ footer {
     height: 75px;
     width: 100%;
     bottom: 0;
-    background-color:#fafafa;
 }
 
 footer p {
