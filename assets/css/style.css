@@ -107,8 +107,8 @@ h1 {
 
     background-color: rgba(191, 165, 166, .9);
 
-    bottom: 30px;
     right: 300px;
+    bottom: 30px;
 
     position: absolute;
 }
@@ -124,6 +124,7 @@ h1 {
     padding: 5px;
     margin: 10px;
     border-radius: 4px;
+    letter-spacing: normal;
 }
 
 .contact-button:hover {
@@ -173,6 +174,19 @@ h1 {
     margin-bottom: 30px;
 } 
 
+#about-bottom-right a {
+    text-decoration: underline;
+    color: #404028;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about-bottom-right h4 {
+    text-align: center;
+    padding-top: 30px;
+}
+
 #image-top-right {
     width: 600px;
     height: 350px;
@@ -203,6 +217,8 @@ h1 {
 
 
 
+
+
  /*end of about page images and text boxes */
 
 /* photo gallery */
@@ -219,6 +235,7 @@ h1 {
 #gallery-heading {
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
+    margin-top: 30px;
     font-size: 2em;
     text-align: center;
 }
@@ -276,15 +293,34 @@ h1 {
     margin-bottom: 5px;
 }
 
-
 #price-list p {
     margin-bottom: 25px;
 }
+
+.enquire-button {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #797861;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.enquire-button:hover {
+    transform: scale(1.2);
+}
+
 /* End of Price-List page*/
 
 /* Contact Page*/
-#contact-form h2 {
+
+#contact-form h1 {
     font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    font-size: 3em;
 }
 #contact-form {
     height: auto;
@@ -336,17 +372,22 @@ textarea {
     margin-right: 50px;
 }
 
-#contact-button {
-    /*float: right;*/
+.submit-button {
+    clear: left;
     text-decoration: none;
     color: #fafafa;
     font-family: 'Poiret One', sans-serif;
-    text-transform: none;
+    font-size: 2em;
+    font-weight: bold;
     background-color: #797861;
-    border: 1px solid #404028;
     padding: 5px;
-    margin: 10px;
+    margin: auto;
     border-radius: 4px;
+    text-align: center;
+}
+
+.submit-button:hover {
+    transform: scale(1.2);
 }
 /* end of Contact Page */
 
