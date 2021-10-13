@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
     margin: 0;
@@ -193,9 +194,33 @@ h1 {
     font-size: 1.5em;
 }
 
+.gallery-link a:unvisited {
+    text-decoration: underline;
+    color: #404028;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
  /*end of about page images and text boxes */
 
 /* photo gallery */
+
+#gallery-heading {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(191, 165, 166, .9);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#gallery-heading {
+    font-family: 'Poiret One', sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+}
 
 #gallery-container {
     clear: both;
@@ -310,14 +335,14 @@ textarea {
     margin-right: 50px;
 }
 
-.submit-button {
-    float: right;
+#contact-button {
+    /*float: right;*/
     text-decoration: none;
     color: #fafafa;
     font-family: 'Poiret One', sans-serif;
     text-transform: none;
-    font-weight: bold;
     background-color: #797861;
+    border: 1px solid #404028;
     padding: 5px;
     margin: 10px;
     border-radius: 4px;
@@ -333,12 +358,9 @@ textarea {
     height: auto;
     width: 600px;
     background-color: rgba(191, 165, 166, .9);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     font-size: 2em;
-    font-family: Raleway, sans-serif;
+    font-family: "Poiret One", sans-serif;
     text-align: center;
 }
 
@@ -347,17 +369,15 @@ textarea {
     margin: 30px;
 }
 
-#thank-you-image {
-    height: 500px;
-    width: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("../images/pexels-kinkate-205923.webp") no repeat center center;
-    position: relative;
+#thank-you-image img {
+    width: 500px;
+    height: auto;
+    margin: auto;
 }
 
 .pip {
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 1.2em;
 }
 /* footer and social media links */
  
