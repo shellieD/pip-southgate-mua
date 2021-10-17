@@ -215,10 +215,6 @@ h1 {
     font-size: 1.5em;
 }
 
-
-
-
-
  /*end of about page images and text boxes */
 
 /* photo gallery */
@@ -305,7 +301,7 @@ h1 {
     font-weight: bold;
     background-color: #797861;
     padding: 5px;
-    margin: 10px;
+    margin-top: 10px;
     border-radius: 4px;
 }
 
@@ -322,6 +318,7 @@ h1 {
     text-align: center;
     font-size: 3em;
 }
+
 #contact-form {
     height: auto;
     width: 600px;
@@ -332,6 +329,7 @@ h1 {
     margin-bottom: 30px;
     text-align: left;
 }
+
 #contact-form label {
     float: left;
     text-align: right;
@@ -370,6 +368,20 @@ textarea {
     width: 500px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+input[type:submit] {
+    /*float: right;*/
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Poiret One', sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    background-color: #797861;
+  /*  padding: 5px;
+    margin: 10px;*/
+    border-radius: 4px;
+    letter-spacing: normal;
 }
 
 /* end of Contact Page */
@@ -436,3 +448,9 @@ footer p {
     padding-left: 5%;
     color: #404028;
 }
+
+/* Media Queries */
+
+
+
+/* End fo Media Queries */

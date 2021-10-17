@@ -44,7 +44,7 @@
         <section id="page-banner">
             <div id="contact-form">
                 <h1>Request A Callback</h1>
-                <form action="index.html" method="GET"></form>
+                <form action="request.html" method="GET" aria-label="Form to request a callback">
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name" required>
                     <label for="email">Email:</label>
@@ -59,7 +59,8 @@
                     <input id="quantity" type="number" name="quantity" min="1" max="10">
                     <label for="message">Further information:</label>
                     <textarea name="message" id="message" cols="30" rows="10">Type your message here...</textarea>
-                    <a href="request.html" class="submit-button" class="button-zoom">Submit</a> 
+                    <input type="submit" value="Submit!">
+                </form>
             </div>
         </section>
 
