@@ -6,7 +6,9 @@ From the site owner's perspective, the aim of the website is to generate revenue
 
 (is my site responsive screenshots)
 
-(link to deployed site)
+Link to deployed site:
+
+[Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
 
 ## Strategy
 ----
@@ -49,7 +51,8 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 
 * About Page Features
     - 2 x Information boxes
-        - Information about the MUA - Training, experience, style and ethos - link to gallery page.
+        - Information about the MUA - Training, experience, style and ethos 
+        Link to gallery page.
         - Information about services - what to expect at Makeup Trial, what to expect on wedding day, other services
     - 2 x Photographs of MUA applying makeup to brides
 
@@ -58,14 +61,16 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 * Gallery Features
     - Masonry style image gallery 
     - Effect applied to enlarge images when hovered over
-    - Button link to contact page
+    - Butto
+    Link to contact page
 
 <br/>
 
 * Price List Features
     - Full breakdown of services
     - Customer reviews
-    - Clickable button to link to contact page
+    - Clickable button t
+    Link to contact page
 
 <br/>
 
@@ -74,7 +79,8 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
     - Date and time picker to choose date/time of event
     - Number picker - to chose the number of people requiring makeup
     - Text area to add more information for MUA
-    - Submit button (link to request page)
+    - Submit button
+    Link to request page)
 
 <br/>
 
@@ -89,7 +95,7 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 
 <br/>
 
-### Features Left to Implement
+### Features Left to Implement
 
 * Create an events page which will show upcoming wedding fayres where potential client's can meet Pip Southgate face-to-face to ask questions.
 * Create a customer reviews page 
@@ -97,5 +103,57 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 
 
 ## Testing
+----
 
+* browsers and screen sizes/devices
+
+
+### Validator testing 
+* HTML (W3C Validator)
+* CSS (Jigsaw)
+* Lighthouse?
+
+### Bugs
+* fixed
+* unfixed
+
+## Deployment 
+----
+ This site was depoloyed to GitHub pages.  The steps taken to deploy the site are as follows:
+
+ * In the GitHub respository, select the settings menu
+ * Choose the pages tab on the left hand side menu
+ * From the source section drop-down menu, select the 'Main' branch
+ * Once the page has automatically refreshed, the link to the successfully deployed page will be displayed.
+
+Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
+
+## Credits
+----
+
+* I used very similar code for my home page, nav bar and footer as taught in the 'Love Running Walkthrough Project' on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development course.  I did change some styling , but ultimately I was aiming for a simliar layout for my main page and navigation links/footer and this code helped me to get my project off to a good start.
+
+* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, styling my contact form (which gave me a bit of headache to be honest!!)
+
+* [W3 Schools](https://www.w3schools.com/) - Again a valuable resource for consolidating what I had already learned and finding out more about HTML and CSS properties.
+
+* [ColorSpace](https://mycolor.space/) - I used this website to select a color pallete, I started with a natural dark brown similar to that of the wood in the banner image and used that to generate a pallette of complementing colors.  From a selection of palettes generated, I chose the 'Classy Palette'
+
+* [StackOverflow](https://stackoverflow.com/) 
+
+* [Google](http://google.com)
+
+* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images from jpeg to webp for better performance
+
+* Pip Southgate - for providing all images and content for the website (permissions receieved from any wedding photographers and former-clients to use images).
+
+## Technologies Used
+----
+* HTML
+* CSS
+* FontAwesome
+* Google Fonts
+* GitHub
+* GitPod
+* GitPages
 
