@@ -9,6 +9,7 @@ From the site owner's perspective, the aim of the website is to generate revenue
 (link to deployed site)
 
 ## Strategy
+----
 
 The site's srategy is focused on providing users with the following:-
 
@@ -21,6 +22,7 @@ The site's srategy is focused on providing users with the following:-
 * Contact information and ability to submit a request for a callback from the Makeup Artist.
 
 ## Structure
+----
 
 The site will consist of five pages - Home, About, Gallery, Pricelist and Contact.  The below wireframe were created using Balsamiq:-
 
@@ -30,11 +32,11 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 ### Features 
 
 * Features included on each page:-
-    - Clickable Logo which links to the homepage 
-    - Intuitive Navigation Menu 
+    - Clickable logo which links to the homepage 
+    - Intuitive navigation menu 
     - Footer with Social Media Links to Facebook and Instagram
-    - Telephone Number and Email Address in Footer on each page
-    - Background Image (brand continuity - as requested by site owner) 
+    - Telephone number and email address in footer on each page
+    - Background image (brand continuity - as requested by site owner) 
 
 <br/> 
 
@@ -86,4 +88,14 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
     - Potentially add further links to Facebook and Instagram.
 
 <br/>
+
+### Features Left to Implement
+
+* Create an events page which will show upcoming wedding fayres where potential client's can meet Pip Southgate face-to-face to ask questions.
+* Create a customer reviews page 
+* Link above two pages to the about page via a drop-down menu on the navigation bar
+
+
+## Testing
+
 

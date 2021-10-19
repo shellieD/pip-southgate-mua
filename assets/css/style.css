@@ -16,7 +16,7 @@ body {
 
 /* headings and logos */
 header {
-    background-color: #fafafa;
+    background: #fafafa;
 }
 
 h1 {
@@ -78,8 +78,6 @@ h1 {
     overflow: hidden;
     background: url('../images/wood.webp') center center;
 }
-
-/* Photo by Tirachard Kumtanom from Pexels */ 
 
 #hero-image {
     height: 800px;
@@ -193,7 +191,7 @@ h1 {
 
 #image-top-right {
     width: 600px;
-    height: 350px;
+    height: auto;
     margin-top: 30px;
 }
 
@@ -204,7 +202,7 @@ h1 {
 
 #image-bottom-left {
     width: 600px;
-    height: 350px;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -308,7 +306,7 @@ h1 {
     margin-top: 10px;
     border-radius: 4px;
 }
-/* WHY DOESN'T THIS WORK on Price-list page??? */
+/* WHY DOESN'T HOVER EFFECT WORK on Price-list page??? */
 
 .enquire-button:hover {
     transform: scale(1.2);
@@ -431,6 +429,7 @@ footer {
     height: 75px;
     width: 100%;
     bottom: 0;
+    background-color: #fafafa;
 }
 
 footer p {
@@ -459,8 +458,7 @@ footer p {
 /* Media Queries */
 
 @media screen and (max-width: 2600px) {
-    #overlay-text {
-        right: 150px;
-    }
+    
 }
+
 /* End fo Media Queries */
