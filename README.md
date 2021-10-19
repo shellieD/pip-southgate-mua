@@ -22,7 +22,10 @@ The site's srategy is focused on providing users with the following:-
 
 ## Structure
 
-The site will consist of five pages - Home, About, Gallery, Pricelist and Contact.
+The site will consist of five pages - Home, About, Gallery, Pricelist and Contact.  The below wireframe were created using Balsamiq:-
+
+![Balsamiq Wireframes](assets/images/wireframes.png)
+
 
 ### Features 
 
@@ -73,9 +76,12 @@ The site will consist of five pages - Home, About, Gallery, Pricelist and Contac
 
 <br/>
 
-* Request Page
 
-    - The request page will appear only when the contact form has been completed and submitted.  It will display a short message to thank users for getting in contact and confirming the MUA will make contact shortly.
+* Thank-you Page
+
+    In addition to the pages above, I decided to add a thank you page, during the build process.
+
+    - The thank-you page will appear only when the contact form has been completed and submitted.  It will display a short message to thank users for getting in contact and confirming the MUA will make contact shortly.
 
     - Potentially add further links to Facebook and Instagram.
 
