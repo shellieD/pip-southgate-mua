@@ -318,7 +318,7 @@ h1 {
 #contact-form label {
     float: left;
     text-align: right;
-    margin: 10px;
+    margin: 10px 50px;
     display: inline-block;
 }
 
