@@ -24,13 +24,13 @@ h1 {
     color: #404028;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 200%;
     margin-left: 30px;
 }
 
-#logo a {
+.logo a {
     text-decoration: none;
 }
 
@@ -38,32 +38,32 @@ h1 {
 
 /* navigation links */
 
-#menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
-#menu ul {
+.menu ul {
     float: right;
 }
 
-#menu li {
+.menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px #404028 solid;
 }
 
-#menu .active {
+.menu .active {
     border-bottom: 1px #404028 solid;
 }
 
@@ -71,8 +71,7 @@ h1 {
 
 /* hero image and overlay text */
 
-#page-banner {
-   /* clear: both;*/
+.page-banner {
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -299,16 +298,11 @@ h1 {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.button-div {
-    margin: 10px;
-}
 
 .enquire-button:hover {
     transform: scale(1.2);
     transition: 1s ease-in-out;
 }
-
-/* WHY DOESN'T HOVER EFFECT WORK on Price-list page??? Why is there no bottom margin on button on price-list page???? */
 
 /* End of Price-List page*/
 
