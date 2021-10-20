@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #404028;
     top: 150px;
     background-color: #fafafa;
@@ -228,23 +228,23 @@ h1 {
 }
 
 #gallery-container {
-    clear: both;
     width: 80%;
     column-count: 4;
     column-gap: 1;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
-#photos > img {
+#gallery-container > img {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
     border-radius: 20px;
 }
 
 .zoom:hover {
     transform: scale(1.4);
+    transition: 1s ease-in-out;
 }
 
 /* end of photo gallery */
@@ -277,7 +277,7 @@ h1 {
 }
 
 #price-list h4 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 5px;
 }
 
@@ -332,7 +332,7 @@ h1 {
     border: 1px solid #998081;
     border-radius: 4px;
     box-sizing: border-box;
-    font-family: Raleyway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 500px;
     margin-left: 50px;
     margin-right: 50px;
@@ -343,7 +343,7 @@ textarea {
     background-color: rgba(191, 165, 166, .9);
     border: 1px solid #998081;
     border-radius: 4px;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #404028;
     width: 500px;
     margin-left: 50px;
@@ -386,7 +386,7 @@ input:focus, textarea:focus {
 
 .photo-credit {
     font-size: 0.4em;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 /* End of Request Page */
 
