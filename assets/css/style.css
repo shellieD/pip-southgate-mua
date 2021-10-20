@@ -87,8 +87,6 @@ h1 {
     background: url('../images/flower-bride.webp') no-repeat center center;
 }
 
-
-
 #overlay-text, #overlay-text h2, #overlay-text p {
     color: #fafafa;
 }
@@ -102,7 +100,7 @@ h1 {
 
     width: 300px;
     height: 220px;
-    border-radius: 4px;
+    border-radius: 20px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -125,7 +123,7 @@ h1 {
     background-color: #797861;
     padding: 5px;
     margin: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     letter-spacing: normal;
 }
 
@@ -149,22 +147,34 @@ h1 {
     height: auto;
     background-color: rgba(191, 165, 166, .9);
     padding: 20px;
+    border-radius: 20px;
 }
 
-#about-top-left h1, #about-bottom-right h1{
+#about-top-left h2, #about-bottom-right h2 {
+    font-family: 'Poiret One', sans-serif;
     font-size: 2em;
     text-align: center;
 }
 
+#about-bottom-right h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about-bottom-right h4 {
+    font-weight: bold;
+}
+
 #about-top-left p, #about-bottom-right p {
-    padding-top: 20px;
+    padding: 20px 5px 20px 5px;
 }
 
 #about-top-left {
     margin-top: 30px;
 } 
 
-#about-top-left a {
+#about-top-left a, #about-bottom-right a {
     text-decoration: underline;
     color: #404028;
     font-weight: bold;
@@ -177,44 +187,26 @@ h1 {
 } 
 
 #about-bottom-right a {
-    text-decoration: underline;
-    color: #404028;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-style: italic;
-}
-
-#about-bottom-right h4 {
-    text-align: center;
     padding-top: 30px;
 }
 
-#image-top-right {
-    width: 600px;
-    height: auto;
-    margin-top: 30px;
-}
-
-#image-top-right img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#image-bottom-left {
+#image-top-right, #image-bottom-left {
     width: 600px;
     height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#image-bottom-left img {
+#image-top-right img, #image-bottom-left img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
 }
 
 #kevyn-aucion-quote {
     font-family: 'Poiret One', sans-serif;
     font-size: 1.5em;
+    text-align: center;
 }
 
  /*end of about page images and text boxes */
@@ -227,10 +219,7 @@ h1 {
     margin: auto;
     background-color: rgba(191, 165, 166, .9);
     padding: 20px;
-    border-radius: 4px;
-}
-
-#gallery-heading {
+    border-radius: 20px;
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
     margin-top: 30px;
@@ -241,7 +230,6 @@ h1 {
 #gallery-container {
     clear: both;
     width: 80%;
-    line-height: 0;
     column-count: 4;
     column-gap: 1;
     margin: auto;
@@ -252,6 +240,7 @@ h1 {
 #photos > img {
     width: 100%;
     padding-top: 10px;
+    border-radius: 20px;
 }
 
 .zoom:hover {
@@ -262,7 +251,7 @@ h1 {
 
 /* Price List */
 
-#price-list {
+#price-list, #contact-form {
     height: auto;
     width: 600px;
     background-color: rgba(191, 165, 166, .9);
@@ -272,24 +261,26 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
     font-weight: bold;
+    border-radius: 20px;
 }
 
-#price-list h1 {
+#price-list h2 {
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
     font-size: 3em;
 }
 
-#price-list h2 {
+#price-list h3 {
     font-family: 'Poiret One', sans-serif;
     margin-bottom: 5px;
     font-size: 2em;
 }
 
-#price-list h3 {
+#price-list h4 {
     font-family: Raleway, sans-serif;
     margin-bottom: 5px;
 }
+
 
 #price-list p {
     margin-bottom: 25px;
@@ -304,33 +295,28 @@ h1 {
     background-color: #797861;
     padding: 5px;
     margin-top: 10px;
-    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
-/* WHY DOESN'T HOVER EFFECT WORK on Price-list page??? */
+.button-div {
+    margin: 10px;
+}
 
 .enquire-button:hover {
     transform: scale(1.2);
 }
 
+/* WHY DOESN'T HOVER EFFECT WORK on Price-list page??? Why is there no bottom margin on button on price-list page???? */
+
 /* End of Price-List page*/
 
 /* Contact Page*/
 
-#contact-form h1 {
+#contact-form h2 {
     font-family: 'Poiret One', sans-serif;
+    padding: 20px;
     text-align: center;
     font-size: 3em;
-}
-
-#contact-form {
-    height: auto;
-    width: 600px;
-    background-color: rgba(191, 165, 166, .9);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: left;
 }
 
 #contact-form label {
@@ -352,17 +338,6 @@ h1 {
     margin-right: 50px;
 }
 
-input:focus {
-    border: 3px solid #404028;
-}
-
-/* changes styling on arrows for number picker */
-
-input[type=number]::-webkit-inner-spin-button {
-    opacity: 1;
-    color:#404028;
-  }
-
 textarea {
     width: 80%;
     background-color: rgba(191, 165, 166, .9);
@@ -375,25 +350,15 @@ textarea {
     margin-right: 50px;
 }
 
-/* input[type:submit] {
-    float: right;
-    text-decoration: none;
-    color: #fafafa;
-    font-family: 'Poiret One', sans-serif;
-    text-transform: none;
-    font-weight: bold;
-    background-color: #797861;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 4px;
-    letter-spacing: normal;
-} */
+input:focus, textarea:focus {
+    outline: 1px solid #404028;
+}
 
 /* end of Contact Page */
 
 /* Request Page */
 
-#request-page-content {
+#thank-you-page-content {
     height: auto;
     width: 600px;
     background-color: rgba(191, 165, 166, .9);
@@ -419,6 +384,10 @@ textarea {
     font-size: 1.2em;
 }
 
+.photo-credit {
+    font-size: 0.4em;
+    font-family: Raleway, sans-serif;
+}
 /* End of Request Page */
 
 /* footer and social media links */
@@ -461,4 +430,4 @@ footer p {
     
 }
 
-/* End fo Media Queries */
+/* End of Media Queries */
