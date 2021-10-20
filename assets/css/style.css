@@ -263,6 +263,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     border-radius: 20px;
+    padding-bottom: 20px;
 }
 
 #price-list h2 {
@@ -281,7 +282,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 5px;
 }
-
 
 #price-list p {
     margin-bottom: 25px;
