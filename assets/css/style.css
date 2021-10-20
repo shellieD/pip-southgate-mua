@@ -72,7 +72,7 @@ h1 {
 /* hero image and overlay text */
 
 #page-banner {
-    clear: both;
+   /* clear: both;*/
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -105,7 +105,7 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
 
     right: 300px;
     bottom: 30px;
@@ -145,7 +145,7 @@ h1 {
 #about-top-left, #about-bottom-right {
     width: 600px;
     height: auto;
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     padding: 20px;
     border-radius: 20px;
 }
@@ -217,12 +217,13 @@ h1 {
     width: 600px;
     height: auto;
     margin: auto;
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     padding: 20px;
     border-radius: 20px;
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 2em;
     text-align: center;
 }
@@ -238,8 +239,8 @@ h1 {
 
 #gallery-container > img {
     width: 100%;
-    padding-top: 30px;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .zoom:hover {
@@ -254,7 +255,7 @@ h1 {
 #price-list, #contact-form {
     height: auto;
     width: 600px;
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -304,6 +305,7 @@ h1 {
 
 .enquire-button:hover {
     transform: scale(1.2);
+    transition: 1s ease-in-out;
 }
 
 /* WHY DOESN'T HOVER EFFECT WORK on Price-list page??? Why is there no bottom margin on button on price-list page???? */
@@ -323,10 +325,11 @@ h1 {
     float: left;
     text-align: right;
     margin: 10px;
+    display: inline-block;
 }
 
 .input-field { 
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #998081;
@@ -340,7 +343,7 @@ h1 {
 
 textarea {
     width: 80%;
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     border: 1px solid #998081;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
@@ -361,7 +364,7 @@ input:focus, textarea:focus {
 #thank-you-page-content {
     height: auto;
     width: 600px;
-    background-color: rgba(191, 165, 166, .9);
+    background-color: #BFA5A6;
     margin: 30px auto;
     font-size: 2em;
     font-family: "Poiret One", sans-serif;
