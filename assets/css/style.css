@@ -229,17 +229,21 @@ h1 {
 
 #gallery-container {
     width: 80%;
-    column-count: 4;
+   /* column-count: 4;
     column-gap: 1;
-    margin: auto;
+    margin: auto; */
     margin-top: 10px;
     margin-bottom: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 1200px;
 }
 
 #gallery-container > img {
-    width: 100%;
+    width: 25%;
     border-radius: 20px;
     box-sizing: border-box;
+    margin: 5px;
 }
 
 .zoom:hover {
