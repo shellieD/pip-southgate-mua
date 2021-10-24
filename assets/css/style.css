@@ -5,23 +5,18 @@
     margin: 0;
     padding: 0;
     border: none;
+    color: #404028;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #404028;
     top: 150px;
-    background-color: #fafafa;
 }
 
 /* headings and logos */
-header {
-    background: #fafafa;
-}
 
 h1 {
     font-family: 'Poiret One', sans-serif;
-    color: #404028;
 }
 
 .logo {
@@ -75,7 +70,6 @@ h1 {
     height: auto;
     width: 100%;
     overflow: hidden;
-    background: url('../images/wood.webp') center center;
 }
 
 #hero-image {
@@ -86,31 +80,29 @@ h1 {
     background: url('../images/flower-bride.webp') no-repeat center center;
 }
 
-#overlay-text, #overlay-text h2, #overlay-text p {
-    color: #fafafa;
+#overlay-text h2, #overlay-text p {
+    font-family: 'Poiret One', sans-serif;
+    color: #FAFAFA;
+    background-color: #404028;
 }
 
 #overlay-text {
     font-size: 130%;
-    font-family: 'Poiret One', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 220px;
     border-radius: 20px;
-
     padding-top: 40px;
     padding-left: 10px;
-
-    background-color: #BFA5A6;
-
     right: 20%;
-    bottom: -1%;
-
+    bottom: 1%;
     position: absolute;
+    background-color: #404028;
+    opacity: 0.9;
 }
+
 
 .contact-button {
     float: right;
@@ -144,9 +136,10 @@ h1 {
 #about-top-left, #about-bottom-right {
     width: 600px;
     height: auto;
-    background-color: #BFA5A6;
     padding: 20px;
     border-radius: 20px;
+    border: 2px #404028 solid;
+    box-shadow: 20px 20px 50px;
 }
 
 #about-top-left h2, #about-bottom-right h2 {
@@ -229,18 +222,16 @@ h1 {
 
 #gallery-container {
     width: 80%;
-   /* column-count: 4;
-    column-gap: 1;
-    margin: auto; */
+    margin: auto; 
     margin-top: 10px;
     margin-bottom: 30px;
     display: flex;
     flex-flow: column wrap;
-    height: 1200px;
+    height: 2600px;
 }
 
 #gallery-container > img {
-    width: 25%;
+    width: 24%;
     border-radius: 20px;
     box-sizing: border-box;
     margin: 5px;
@@ -399,7 +390,6 @@ footer {
     height: 75px;
     width: 100%;
     bottom: 0;
-    background-color: #fafafa;
 }
 
 footer p {
