@@ -204,20 +204,26 @@ h1 {
  /*end of about page images and text boxes */
 
 /* photo gallery */
+#gallery-heading h2 {
+    color: #404028;
+    opacity: 0.9;;
+    text-transform: uppercase;
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: 4px;
+}
 
 #gallery-heading {
     width: 600px;
     height: auto;
     margin: auto;
-    background-color: #BFA5A6;
     padding: 20px;
     border-radius: 20px;
-    font-family: 'Poiret One', sans-serif;
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 2em;
     text-align: center;
+    opacity: 0.8;
 }
 
 #gallery-container {
@@ -249,7 +255,7 @@ h1 {
 #price-list, #contact-form {
     height: auto;
     width: 600px;
-    background-color: #BFA5A6;
+    background-color: #404028;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -264,21 +270,25 @@ h1 {
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
     font-size: 3em;
+    color: #fafafa;
 }
 
 #price-list h3 {
     font-family: 'Poiret One', sans-serif;
     margin-bottom: 5px;
     font-size: 2em;
+    color:#fafafa;
 }
 
 #price-list h4 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 5px;
+    color: #fafafa;
 }
 
 #price-list p {
     margin-bottom: 25px;
+    color: #fafafa;
 }
 
 .enquire-button {
@@ -308,6 +318,7 @@ h1 {
     padding: 20px;
     text-align: center;
     font-size: 3em;
+    color: #fafafa;
 }
 
 #contact-form label {
@@ -315,13 +326,16 @@ h1 {
     text-align: right;
     margin: 10px 50px;
     display: inline-block;
+    color: #fafafa;
 }
 
 .input-field { 
-    background-color: #BFA5A6;
+    background-color: #404028;
+    color: #fafafa;
+    opacity: 0.5;
     padding: 12px 20px;
     display: inline-block;
-    border: 1px solid #998081;
+    border: 1px solid #797861;
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -332,8 +346,8 @@ h1 {
 
 textarea {
     width: 80%;
-    background-color: #BFA5A6;
-    border: 1px solid #998081;
+    background-color: #404028;
+    border: 1px solid #797861;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
     color: #404028;
@@ -342,8 +356,18 @@ textarea {
     margin-right: 50px;
 }
 
+#time, #date, #quantity {
+    color: #fafafa;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fafafa;
+    opacity: 1; /* Firefox */
+  }
+
 input:focus, textarea:focus {
+    background-color:#797861;
     outline: 1px solid #404028;
+    color:#FAFAFA;
 }
 
 /* end of Contact Page */
