@@ -348,6 +348,7 @@ textarea {
     width: 80%;
     background-color: #404028;
     border: 1px solid #797861;
+    color: #fafafa;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
     color: #404028;
@@ -367,7 +368,7 @@ textarea {
 input:focus, textarea:focus {
     background-color:#797861;
     outline: 1px solid #404028;
-    color:#FAFAFA;
+    color:#fafafa;
 }
 
 /* end of Contact Page */
