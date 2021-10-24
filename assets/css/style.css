@@ -372,37 +372,45 @@ input:focus, textarea:focus {
 
 /* end of Contact Page */
 
-/* Request Page */
+/* Thank-you Page */
 
-#thank-you-page-content {
+#thank-you-page-content, #error-page {
     height: auto;
     width: 600px;
-    background-color: #BFA5A6;
+    background-color: #404028;
     margin: 30px auto;
     font-size: 2em;
-    font-family: "Poiret One", sans-serif;
     text-align: center;
+    border-radius: 20px;
 }
 
-#thank-you {
+#thank-you-message, #error-message {
     padding: 30px;
     margin: 30px;
 }
 
-#thank-you-image img {
+#thank-you-message h2, #thank-you-message p, #error-message h2, #error-message p {
+    color: #fafafa;
+    font-family: 'Poiret One', sans-serif;
+    padding: 5px;
+}
+
+#thank-you-image img, #error-imageß {
     width: 500px;
     height: auto;
     margin: auto;
 }
 
-.pip {
+#pip p {
     font-family: 'Indie Flower', sans-serif;
     font-size: 1.2em;
+    color: #fafafa;500
 }
 
 .photo-credit {
     font-size: 0.4em;
     font-family: 'Raleway', sans-serif;
+    color: #fafafa;
 }
 /* End of Request Page */
 
