@@ -393,18 +393,27 @@ input:focus, textarea:focus {
     color: #fafafa;
     font-family: 'Poiret One', sans-serif;
     padding: 5px;
+    margin-bottom: 5px;
 }
 
-#thank-you-image img, #error-imageß {
+#thank-you-image img, #error-image img {
     width: 500px;
     height: auto;
     margin: auto;
+    border-radius: 20px;
 }
 
 #pip p {
     font-family: 'Indie Flower', sans-serif;
     font-size: 1.2em;
-    color: #fafafa;500
+    color: #fafafa;
+}
+
+#error-message a {
+    color: #fafafa;
+    text-decoration: none; 
+    border-bottom: 1px #fafafa solid;
+    text-transform: uppercase;
 }
 
 .photo-credit {
