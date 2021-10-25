@@ -45,6 +45,8 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 <summary>Desktop Wireframes<summary>
 </details>
 
+<br>
+
 <details>
 
 ![wireframes](assets/wireframes/mobile-home.png)
@@ -61,13 +63,13 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ## Design
 ----
 
-The site owner wanted a classic style to the website.  We initially decided on a color scheme incorporating natural tones of subtle pinks and greens and that colour pallete was selected using [ColorSpace](https://mycolor.space/), but during the build decided that the colour scheme distracted from the imagery and after checking the colour pallete using [EigthShapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) we realised it was not great in terms of contrast/accessibility.  After some discussion decided to go with a more sleek and simple design.  We chose a simple two colour palette of a dark leafy green, similar to that in the head-dress worn by the client in the hero-image, and this is used in contrast with an off-white.  This colour combination gives the highest rating in compliance with [WCAG 2.0 minimum contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).  
+The site owner wanted a classic style to the website.  We initially decided on a color scheme incorporating natural tones of subtle pinks and greens and that colour pallete was selected using [ColorSpace](https://mycolor.space/), but during the build I felt that the colour scheme distracted from the imagery and after checking the colour pallete using [EigthShapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) I realised it was not great in terms of contrast/accessibility.  After some discussion with the site owner, we decided to go with a more sleek and simple design.  We chose a simple two colour palette of a dark leafy green, similar to that in the head-dress worn by the client in the hero-image, and this is used in contrast with an off-white.  This colour combination gives the highest rating in compliance with [WCAG 2.0 minimum contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) for text/background.  
 
 ![Contrast Grid](assets/images/contrast-grid.png)
 
-All of the images used throughout the site have been provided by Pip Southgate and are images of her former clients.  Permission has been given from the clients and photographers (where the photos have not been taken by Pip herself) to use the images on her website and social media pages. 
+All of the images used throughout the site have been provided by Pip Southgate and are images of her former clients.  Permission has been given from the clients and photographers - where the photos have not been taken by Pip herself - to use the images on her website and social media pages.  The images on the 'thank-you' page and '404 error page' were sourced from Pexels and photographer credits have been included beneath each. 
 
-Google Fonts was used to select a classy looking font for the main logo and headings - 'Poiret One' and this was paired with the widely used 'Raleway' for the main content.  A third font was used on the thank-you page only - this was used to give a more handwritten, personal style to the sign-off of the thank-you message.  The font used here was 'Indie Flower'.
+Google Fonts was used to select a classy and stylish looking font for the main logo and headings - 'Poiret One' and this was paired with the widely used 'Raleway' for the main content.  A third font was used on the thank-you page only - this was used to give a more handwritten, personal style to the sign-off of the thank-you message.  The font used here was 'Indie Flower'.
 
 ## Features 
 ----
