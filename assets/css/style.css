@@ -101,11 +101,10 @@ h1 {
     bottom: 1%;
     margin: auto;
     z-index: 100;
-   position: absolute;
+    position: absolute;
     background-color: #404028;
     opacity: 0.9;
 }
-
 
 .contact-button {
     float: right;
@@ -466,8 +465,21 @@ footer .contact-info {
 
 /* Media Queries */
 
-@media screen and (max-width: 2600px) {
-    
+@media screen and (max-width: 1300px) {
+
+#flex-container-top, #flex-container-bottom {
+    width: 849px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px auto 20px auto;
+}
+
+#about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
+    margin: 20px auto 20px auto;
+    width: 849px;
+}
+
+
 }
 
 /* End of Media Queries */
