@@ -78,7 +78,7 @@ h1 {
     margin: 30px auto 30px auto;
     border-radius: 20px;
     background: url('../images/flower-bride.jpeg') no-repeat center center;
-    position: relative
+    position: relative;
 }
 
 #overlay-text h2, #overlay-text p {
@@ -470,6 +470,140 @@ footer {
 
 /* Media Queries */
 
+/* Media Queries for Responsive Gallery */
+@media screen and (max-width: 1845px) {
+
+#gallery-container {
+    height: 2300px;
+}
+}
+
+@media screen and (max-width: 1700px) {
+
+#gallery-container {
+    height: 2135px;
+}
+}
+
+@media screen and (max-width: 1528px) {
+
+#gallery-container {
+    height: 1857px;
+ }
+}
+
+@media screen and (max-width: 1421px) {
+
+#gallery-container {
+    height: 1740px;
+}
+}
+
+@media screen and (max-width: 1333px) {
+
+#gallery-container {
+    height: 1640;
+}
+}
+
+@media screen and (max-width: 1249px) {
+
+#gallery-container {
+    height: 1528px;
+}
+}
+
+@media screen and (max-width: 1160px) {
+
+#gallery-container {
+    height: 2650px;
+}
+
+#gallery-container > img {
+    width: 33%;
+}
+}
+
+@media screen and (max-width: 1106px) {
+
+#gallery-container {
+    height: 2524px;
+}
+}
+
+@media screen and (max-width: 1047px) {
+
+#gallery-container {
+    height: 2394px;
+}
+}
+
+@media screen and (max-width: 995px) {
+
+#gallery-container {
+    height: 2283px;
+}
+}
+
+@media screen and (max-width: 955px) {
+
+#gallery-container {
+    height: 4583px;
+}
+
+#gallery-container > img {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 882px) {
+
+#gallery-container {
+    height: 4241px;
+}
+}
+
+@media screen and (max-width: 813px) {
+
+#gallery-container {
+    height: 3917px;
+}
+}
+
+@media screen and (max-width: 749px) {
+
+#gallery-container {
+    height: 3618px;
+}
+}
+
+@media screen and (max-width: 690px) {
+
+#gallery-container {
+    height: 3342px;
+}
+}
+
+@media screen and (max-width: 636px) {
+
+#gallery-container {
+    height: 3089px;
+}
+}
+
+@media screen and (max-width: 588px) {
+
+#gallery-container {
+    height: fit-content;
+}
+
+#gallery-container > img {
+    width: 100%;
+}
+}
+
+/* End of Media Queries for Responsive Gallery*/
+
 @media screen and (max-width: 1600px) {
 
 #flex-container-top, #flex-container-bottom {
@@ -499,6 +633,11 @@ footer {
     margin: auto;
     text-align: center;
 }
+}
 
 @media screen and (max-width: 900px) {
+
+
+
+
 /* End of Media Queries */
