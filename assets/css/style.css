@@ -136,12 +136,13 @@ h1 {
 }
 
 #about-top-left, #about-bottom-right {
-    width: 600px;
+    width: 750px;
     height: auto;
     padding: 20px;
     border-radius: 20px;
     border: 2px #404028 solid;
     box-shadow: 20px 20px 50px;
+    box-sizing: border-box;
 }
 
 #about-top-left h2, #about-bottom-right h2 {
@@ -185,10 +186,10 @@ h1 {
 }
 
 #image-top-right, #image-bottom-left {
-    width: 600px;
+    width: 750px;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #image-top-right img, #image-bottom-left img {
@@ -431,25 +432,29 @@ input:focus, textarea:focus {
 footer {
     padding: 0;
     margin: 0;
-    height: 75px;
+    height: 100px;
     width: 100%;
     bottom: 0;
 }
 
-footer p {
-    text-align: center;
-    letter-spacing: 4px;
+.contact-info {
     float: right;
+    margin-right: 30px;
+    text-align: right;
+    letter-spacing: 4px;
     display: block;
+    padding: 5px;
 }
 
-footer .contact-info {
-    margin-right: 30px;
+.contact-info p {
+    padding: 5px;
 }
+
 
 .social-networks {
     clear: right;
     text-align: center;
+    padding-top: 30px;
 }
 
 .social-networks li {
@@ -465,7 +470,7 @@ footer .contact-info {
 
 /* Media Queries */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
 
 #flex-container-top, #flex-container-bottom {
     width: 849px;
@@ -477,9 +482,23 @@ footer .contact-info {
 #about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
     margin: 20px auto 20px auto;
     width: 849px;
+    box-sizing: border-box;
+}
 }
 
+@media screen and (max-width: 1100px) {
 
+#overlay-text {
+    height: 200px;
+    right: 24%;
+    bottom -3%; 
 }
 
+.contact-info {
+    float: unset;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
 /* End of Media Queries */
