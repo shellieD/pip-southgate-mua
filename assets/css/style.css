@@ -595,6 +595,18 @@ footer {
     font-size: 80%;
 }
 
+#hero-image {
+    height: 440px;
+}
+#overlay-text {
+    height: 120px;
+    padding-top: 20px;
+    left: 39%;
+    bottom: 2%;
+}
+
+}
+
 /* Media Queries for Responsive Gallery */
 /*@media screen and (max-width: 1200px) {
 
