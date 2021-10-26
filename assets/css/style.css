@@ -527,14 +527,72 @@ footer {
 
 @media screen and (max-width: 768px) {
 
- .menu, .logo {
+.menu, .logo {
      line-height: 50px;
     }
     
 .logo {
     font-size: 125%;
     margin-right: 30px;
+}
 
+@media screen and (max-width: 600px) {
+
+.menu ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.menu {
+    line-height: 25px;
+}
+
+#hero-image {
+    width: 100%;
+    padding-top: 5px;
+    border-radius: 0%;
+    margin-bottom: 0;
+}
+
+#overlay-text {
+    width: 100%;
+    border-radius: 0%;
+    text-align: center;
+    font-size: 100%;
+    height: 150px;
+}
+
+.contact-button {
+    float: unset;
+    bottom: 5%;
+    left: 45%;
+}
+
+#flex-container-top, #flex-container-bottom {
+    width: 100%;
+    margin: 0;
+}
+
+#about-top-left, #about-bottom-right {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#image-top-right, #image-bottom-left {
+    display: none;
+}
+
+#about-bottom-right {
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 433px) {
+
+.menu li {
+    margin-right: 15px;
+    font-size: 80%;
 }
 
 /* Media Queries for Responsive Gallery */
