@@ -66,9 +66,9 @@ h1 {
 
 /* hero image and overlay text */
 
-.page-banner {
+#hero-image-container {
     height: auto;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     margin: auto;
 }
@@ -116,7 +116,6 @@ h1 {
     font-weight: bold;
     background-color: #797861;
     padding: 5px;
-    /*margin: 10px;*/
     border-radius: 10px;
     letter-spacing: normal;
     position: absolute;
@@ -211,9 +210,16 @@ h1 {
  /*end of about page images and text boxes */
 
 /* photo gallery */
+
+#page-banner-gallery {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
 #gallery-heading h2 {
     color: #404028;
-    opacity: 0.9;;
     text-transform: uppercase;
     font-family: 'Poiret One', sans-serif;
     letter-spacing: 4px;
@@ -442,7 +448,6 @@ footer {
 }
 
 .contact-info {
-    /*float: right;*/
     margin: auto;
     text-align: center;
     letter-spacing: 4px;
@@ -456,7 +461,6 @@ footer {
 
 
 .social-networks {
-    /*clear: right;*/
     text-align: center;
     padding-top: 30px;
 }
@@ -467,8 +471,7 @@ footer {
 
 .social-networks i {
     font-size: 150%;
-   /* margin-left: 1%;*/
-    padding: 10px;
+    padding: 20px;
     color: #404028;
 }
 
@@ -488,15 +491,19 @@ footer {
     width: 80%;
     box-sizing: border-box;
 }
+
+#image-top-right {
+    padding: none;
+}
 }
 
 @media screen and (max-width: 1062px) {
 
-.page-banner {
+#hero-image-container {
     width: 100%;
 }
 #hero-image {
-    width: 100%;
+    width: 80%;
 }
 
 #logo {
@@ -508,27 +515,44 @@ footer {
     font-size: 75%;
 }
 
+@media screen and (max-width: 992px) {
 
+#hero-image {
+    width: 80%;
+}
+   
+#about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
+    width: 100%;
+}
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 900px) {
+ .menu, .logo {
+     line-height: 50px;
+    }
+    
+.logo {
+    font-size: 125%;
+    margin-right: 30px;
 
-
+}
 
 /* Media Queries for Responsive Gallery */
-@media screen and (max-width: 1845px) {
+/*@media screen and (max-width: 1200px) {
 
-#gallery-container {
-    height: 2300px;
+
+#gallery-container > img {
+    width: 31%
 }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 992px) {
 
-#gallery-container {
-    height: 2135px;
+
+#gallery-container > img {
+    width: 
 }
-}
+}*/
 
 @media screen and (max-width: 1528px) {
 
@@ -648,9 +672,6 @@ footer {
 }
 
 /* End of Media Queries for Responsive Gallery*/
-
-
-
 
 
 /* End of Media Queries */
