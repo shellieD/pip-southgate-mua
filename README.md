@@ -45,7 +45,6 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 <summary>Desktop Wireframes<summary>
 </details>
 
-<br>
 
 <details>
 

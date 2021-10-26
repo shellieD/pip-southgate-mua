@@ -68,8 +68,9 @@ h1 {
 
 .page-banner {
     height: auto;
-    width: 100%;
+    width: 80%;
     overflow: hidden;
+    margin: auto;
 }
 
 #hero-image {
@@ -77,7 +78,7 @@ h1 {
     width: 849px;
     margin: 30px auto 30px auto;
     border-radius: 20px;
-    background: url('../images/flower-bride.jpeg') no-repeat center center;
+    background: url('../images/flower-bride.jpeg') no-repeat center center/cover;
     position: relative;
 }
 
@@ -97,8 +98,8 @@ h1 {
     border-radius: 20px;
     padding-top: 40px;
     padding-left: 10px;
-    right: -9%;
-    bottom: 1%;
+    right: 0%;
+    bottom: 0%;
     margin: auto;
     z-index: 100;
     position: absolute;
@@ -115,9 +116,12 @@ h1 {
     font-weight: bold;
     background-color: #797861;
     padding: 5px;
-    margin: 10px;
+    /*margin: 10px;*/
     border-radius: 10px;
     letter-spacing: normal;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
 }
 
 .contact-button:hover {
@@ -438,9 +442,9 @@ footer {
 }
 
 .contact-info {
-    float: right;
-    margin-right: 30px;
-    text-align: right;
+    /*float: right;*/
+    margin: auto;
+    text-align: center;
     letter-spacing: 4px;
     display: block;
     padding: 5px;
@@ -452,7 +456,7 @@ footer {
 
 
 .social-networks {
-    clear: right;
+    /*clear: right;*/
     text-align: center;
     padding-top: 30px;
 }
@@ -463,12 +467,53 @@ footer {
 
 .social-networks i {
     font-size: 150%;
-    margin-left: 1%;
-    padding-left: 5%;
+   /* margin-left: 1%;*/
+    padding: 10px;
     color: #404028;
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1600px) {
+
+#flex-container-top, #flex-container-bottom {
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px auto 20px auto;
+}
+
+#about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
+    margin: 20px auto 20px auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 1062px) {
+
+.page-banner {
+    width: 100%;
+}
+#hero-image {
+    width: 100%;
+}
+
+#logo {
+    line-height: 50px;
+    font-size: 150%;
+}
+
+.menu a {
+    font-size: 75%;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+
 
 /* Media Queries for Responsive Gallery */
 @media screen and (max-width: 1845px) {
@@ -604,38 +649,6 @@ footer {
 
 /* End of Media Queries for Responsive Gallery*/
 
-@media screen and (max-width: 1600px) {
-
-#flex-container-top, #flex-container-bottom {
-    width: 849px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 20px auto 20px auto;
-}
-
-#about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
-    margin: 20px auto 20px auto;
-    width: 849px;
-    box-sizing: border-box;
-}
-}
-
-@media screen and (max-width: 1100px) {
-
-#overlay-text {
-    height: 200px;
-    right: 24%;
-    bottom -3%; 
-}
-
-.contact-info {
-    float: unset;
-    margin: auto;
-    text-align: center;
-}
-}
-
-@media screen and (max-width: 900px) {
 
 
 
