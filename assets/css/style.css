@@ -277,10 +277,7 @@ h1 {
     height: auto;
     width: 80%;
     background-color: #FAFAFA;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     font-weight: bold;
     border: 2px #404028 solid;
     border-radius: 20px;
@@ -301,13 +298,14 @@ h1 {
 
 #price-list h3 {
     font-family: 'Poiret One', sans-serif;
-    margin-bottom: 5px;
+    margin: 30px auto 30px auto;
     font-size: 2em;
     color: #404028;
 }
 
 #price-list h4 {
     font-family: 'Raleway', sans-serif;
+    margin-top: 30px auto 30px auto;
     margin-bottom: 5px;
     color: #404028;
 }
@@ -335,7 +333,7 @@ h1 {
 
 .enquire-button:hover {
     transform: scale(1.2);
-    transition: 1s ease-in-out;
+    transition: 1s ease-in;
 }
 
 /* End of Price-List page*/
@@ -352,7 +350,6 @@ h1 {
 
 #contact-form label {
     float: left;
-    text-align: right;
     margin: 10px 50px;
     display: block;
     color: #404028;
@@ -360,10 +357,9 @@ h1 {
 
 .input-field { 
     color: #404028;
-    opacity: 0.5;
     padding: 12px 20px;
     display: inline-block;
-    border: 1px solid #797861;
+    border: 1px solid #404028;
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -382,17 +378,22 @@ textarea {
     margin-left: 50px;
     margin-right: 50px;
 }
+.input,textarea {
+    color: #404028;
+}
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #404028;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1; /*Firefox */
+} 
 
-input:focus, textarea:focus {
+.input:focus, textarea:focus {
     background-color: #FAFAFA;
     outline: 2px solid #404028;
     color: #404028;
 }
+
+
 
 /* end of Contact Page */
 
@@ -635,8 +636,8 @@ footer {
 }
 
 /* Media Queries for Responsive Gallery */
-/*@media screen and (max-width: 1200px) {
 
+@media screen and (max-width: 1200px) {
 
 #gallery-container > img {
     width: 31%
@@ -645,8 +646,7 @@ footer {
 
 @media screen and (max-width: 992px) {
 
-
-#gallery-container > img {
+/*#gallery-container > img {
     width: 
 }
 }*/
@@ -655,7 +655,7 @@ footer {
 
 #gallery-container {
     height: 1857px;
- }
+}
 }
 
 @media screen and (max-width: 1421px) {
