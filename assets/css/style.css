@@ -226,7 +226,7 @@ h1 {
 }
 
 #gallery-heading {
-    width: 600px;
+    width: 100%;
     height: auto;
     margin: auto;
     padding: 20px;
@@ -265,56 +265,72 @@ h1 {
 
 /* Price List */
 
+#price-list-container, #contact-form-container, #thank-you-container {
+    height: auto;
+    width: 100%;
+    overflow-y: hidden;
+    margin: auto;
+    box-sizing: border-box;
+}
+
 #price-list, #contact-form {
     height: auto;
-    width: 600px;
-    background-color: #404028;
+    width: 80%;
+    background-color: #FAFAFA;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
     font-weight: bold;
+    border: 2px #404028 solid;
     border-radius: 20px;
     padding-bottom: 20px;
+    box-shadow: 20px 20px 50px;
+}
+
+#price-list {
+    text-align: center;
 }
 
 #price-list h2 {
     font-family: 'Poiret One', sans-serif;
     padding: 20px;
     font-size: 3em;
-    color: #fafafa;
+    color: #404028;
 }
 
 #price-list h3 {
     font-family: 'Poiret One', sans-serif;
     margin-bottom: 5px;
     font-size: 2em;
-    color:#fafafa;
+    color: #404028;
 }
 
 #price-list h4 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 5px;
-    color: #fafafa;
+    color: #404028;
 }
 
 #price-list p {
     margin-bottom: 25px;
-    color: #fafafa;
+    color: #404028;
 }
 
 .enquire-button {
-    text-decoration: none;
-    color: #fafafa;
+    color: #FAFAFA;
     font-family: 'Poiret One', sans-serif;
     font-size: 2em;
     font-weight: bold;
     background-color: #797861;
     padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    display: block;
     border-radius: 10px;
+}
+
+.enquire-button a {
+    text-decoration: none;
 }
 
 .enquire-button:hover {
@@ -331,20 +347,19 @@ h1 {
     padding: 20px;
     text-align: center;
     font-size: 3em;
-    color: #fafafa;
+    color: #404028;
 }
 
 #contact-form label {
     float: left;
     text-align: right;
     margin: 10px 50px;
-    display: inline-block;
-    color: #fafafa;
+    display: block;
+    color: #404028;
 }
 
 .input-field { 
-    background-color: #404028;
-    color: #fafafa;
+    color: #404028;
     opacity: 0.5;
     padding: 12px 20px;
     display: inline-block;
@@ -352,36 +367,31 @@ h1 {
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    width: 500px;
+    width: 80%;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 textarea {
-    width: 80%;
-    background-color: #404028;
+    background-color: #FAFAFA;
     border: 1px solid #797861;
-    color: #fafafa;
+    color: #404028;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
-    color: #404028;
-    width: 500px;
+    width: 80%;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-#time, #date, #quantity {
-    color: #fafafa;
-}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fafafa;
+    color: #404028;
     opacity: 1; /* Firefox */
   }
 
 input:focus, textarea:focus {
-    background-color:#797861;
-    outline: 1px solid #404028;
-    color:#fafafa;
+    background-color: #FAFAFA;
+    outline: 2px solid #404028;
+    color: #404028;
 }
 
 /* end of Contact Page */
@@ -462,7 +472,6 @@ footer {
 
 .social-networks {
     text-align: center;
-    padding-top: 30px;
 }
 
 .social-networks li {
@@ -588,6 +597,17 @@ footer {
 }
 }
 
+#price-list-container, #contact-form-container, #thank-you-container {
+    width: 100%;
+}
+
+#price-list, #contact-form, #thank-you-page-content {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+}
+
 @media screen and (max-width: 433px) {
 
 .menu li {
@@ -602,6 +622,14 @@ footer {
     height: 120px;
     padding-top: 20px;
     width: 100%;
+}
+
+.contact-button {
+    left: 39%;
+    bottom: 1%;
+}
+.contact-info p {
+    letter-spacing: 1px;
 }
 
 }
