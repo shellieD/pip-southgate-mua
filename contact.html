@@ -29,7 +29,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="404.html">Home</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
@@ -44,15 +44,17 @@
         </nav>
     </header>
         <section id="contact-form-container">
+            <div id="contact-heading">
+                <h2>Contact</h2>
+            </div>
             <div id="contact-form">
-                <h2>Request A Callback</h2>
                 <form action="thankyou.html" method="GET" aria-label="Form to request a callback">
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name" class="input-field" required>
                     <label for="email">Email:</label>
                     <input id="email" type="email" name="email" class="input-field" required>
                     <label for="telephone">Telephone:</label>
-                    <input id="telephone" type="text" name="telephone" class="input-field" required>
+                    <input id="telephone" type="text" name="telephone" class="input-field" min="11" max="11"required>
                     <label for="date">Date of Event:</label>
                     <input id="date" type="date" name="date" class="input-field" required>
                     <label for="time">Time:</label>
