@@ -1,10 +1,10 @@
 # Pip Southgate MUA - Bespoke Bridal Makeup
 
-This website is aimed mainly at brides-to-be looking for a professional Makeup Artist (MUA) in South Wales, South of England and The Midlands.  The aim is to give information about the site owner Pip Southgate, her experience and the service she provides.  It is also designed to showcase the work she has done on her previous clients by incorporating a gallery and providing information about the costs of her services.  It is also aimed at women who maybe looking for a Makeup Artist to provide services for a special occasion such as a prom, hen party or simply a girls night out.  Users of the site will be able to gain contact information for the Makeup Artist and also submit a request for the Makeup Artist to contact them.
+This website is aimed mainly at brides-to-be looking for a professional Makeup Artist (MUA) in South Wales, South of England and The Midlands.  The aim is to give information about the site owner - Makeup Artist Pip Southgate, her experience and the service she provides.  It is also designed to showcase the work she has done on her previous clients by incorporating a gallery and providing information about the costs of her services.  It is also aimed at women who maybe looking for a Makeup Artist to provide services for a special occasion such as a prom, hen party or simply a girls night out.  Users of the site will be able to gain contact information for the Makeup Artist and also submit a request for the Makeup Artist to contact them.
 
 From the site owner's perspective, the aim of the website is to generate revenue by providing information about services, showcasing skills through the gallery and encouraging potential clients to make contact.  
 
-(is my site responsive screenshots)
+![Am I Responsive Screenshots](assets/images/responsive.png)
 
 Link to deployed site:
 
@@ -46,6 +46,8 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 
 </details>
 
+<br>
+
 <details>
 
 ![wireframes](assets/wireframes/mobile-home.png)
@@ -82,7 +84,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 
 * Navigation Menu 
-    - This features on all pages of the website.  The position and style is consistent across all pages to allow the user to intuitively navigate each page of the website.  The navigation menu also has an active class applied so the user can easily see which page they are currently on as the associated link will be marked with a bottom border.
+    - This features on all pages of the website.  The position and style is consistent across all pages to allow the user to intuitively navigate each page of the website.  The navigation menu also has an active class applied so the user can easily see which page they are currently on as the associated link will be marked with a neat bottom border.
 
 ![Navigation Menu](assets/images/navbar.png)
 
@@ -96,62 +98,55 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <br/> 
 
 * Home Page Features
-    - The Hero-image is high quality photograph of former client of Pip Southgate on her weddig day.  The image is quite striking with the contrast between the bright orange hair of the client and the natural tones in her headress. This image as it showcases the natural style Pip Southgate has with her makeup application
+    - The Hero-image is high quality photograph of former client of Pip Southgate on her weddig day.  The image is quite striking with the contrast between the bright orange hair of the client and the natural tones in her headress. This image was chosen as it showcases the natural style Pip Southgate has with her makeup application.
     - There is a text overlay box which briefly summarises the areas covered by the MUA, but leaves out enough information to entice the site user to make an enquiry.
-    - There is also a contact button within the text overlay box which links directly to the contact page.  This acts as a call to action to encourage the site user to submit their details to arrange a callback. 
+    - There is also a contact button within the text overlay box which links directly to the contact page.  This acts as a call to action to encourage the site user to submit their details to arrange a callback.  The contact button has a hover effect applied so the button grows when it is hovered over to draw attention to itself.  The same effect is used on all buttons across the site.
 
 ![Hero Image and Overlay Text](assets/images/hero-image.png)   
 
 <br/>
 
 * Home Page Features Continued...
-    - The home page also contains two information boxes and two further images.  The first information box provides the site user with a brief introduction to Pip Southgate, her training, experience, style and ethos.  The second provides key information about services - what to expect at Makeup Trial, what to expect on wedding day, other services
-    - 2 x Photographs of MUA applying makeup to brides
+    - The home page also contains two information boxes and two further images.  The first information box provides the site user with a brief introduction to Pip Southgate, her training, experience, style and ethos.  There is also a link to encourage the user to visit the gallery.  This opens in a new tab, so the user can easily switch between tabs or go back to the page they were viewing by using the navigation menu. 
+    - The second information box provides key information about the services provided - what to expect at a Makeup Trial, what to expect on wedding day and other services available.  There is a link here to view the pricelist of the services which again, opens in a new tab.
+    - As a decorative feature for this section, there are two images of the Makeup Artist applying makeup to her clients.  These are displayed on larger screens, but are then hidden on smaller screens, such as mobile phones. 
 
 <br/>
 
 * Gallery Features
-    - Masonry style image gallery 
-    - Effect applied to enlarge images when hovered over
-    - Butto
-    Link to contact page
+    - A masonry style gallery has been used to show images of the Makeup Artists former clients.  A hover effect has been applied to the images so they scale up once hovered over. 
+
+
+![Screenshot of Gallery and zoom effect](assets/images/photo-gallery.png)
 
 <br/>
 
 * Price List Features
     - Full breakdown of services
-    - Customer reviews
-    - Clickable button t
-    Link to contact page
+    - Clickable button to link to contact page - 
 
 <br/>
 
 * Contact Form
-    - Input fields to submit name, email address, and venue of event
-    - Date and time picker to choose date/time of event
-    - Number picker - to chose the number of people requiring makeup
-    - Text area to add more information for MUA
-    - Submit button
-    Link to request page)
+    - Input fields to submit name, email address, and venue of event.
+    - Date and time pickers to choose date/time of event.
+    - Number picker - to chose the number of people requiring makeup.
+    - Text area to add more information or a message for the MUA.
+    - Submit button - zoom effect.  This button currently links to a thank-you page where a thank you message is displayed to let the site user know their information has been submitted. 
 
 <br/>
 
 
 * Thank-you Page
-
-    In addition to the pages above, I decided to add a thank you page, during the build process.
-
     - The thank-you page will appear only when the contact form has been completed and submitted.  It will display a short message to thank users for getting in contact and confirming the MUA will make contact shortly.
-
-    - Potentially add further links to Facebook and Instagram.
 
 <br/>
 
 ### Features Left to Implement
 
 * Create an events page which will show upcoming wedding fayres where potential client's can meet Pip Southgate face-to-face to ask questions.
-* Create a customer reviews page 
-* Link above two pages to the about page via a drop-down menu on the navigation bar
+* Create a customer reviews page. 
+* Add a drop down menu to the 'home' link in the navigation menu to link to events page and customer reviews page.
 
 
 ## Testing

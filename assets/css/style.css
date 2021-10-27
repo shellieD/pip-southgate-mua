@@ -271,7 +271,7 @@ h1 {
 #price-list-container, #contact-form-container, #thank-you-container, #error-page-container {
     height: auto;
     width: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: auto;
     box-sizing: border-box;
 }
@@ -395,12 +395,9 @@ textarea {
     color: #404028;
 }
 
-
-
 /* end of Contact Page */
 
 /* Thank-you Page */
-
 
 #thank-you-page-content, #error-page {
     height: auto;
@@ -606,6 +603,7 @@ footer {
 }
 
 #price-list, #contact-form, #thank-you-page-content, #error-page {
+    clear: both;
     width: 100%;
     border-radius: 0;
     box-shadow: none;
@@ -635,7 +633,6 @@ footer {
 .contact-info p {
     letter-spacing: 1px;
 }
-
 }
 
 /* Media Queries for Responsive Gallery */
