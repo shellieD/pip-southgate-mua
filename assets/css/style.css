@@ -601,8 +601,7 @@ footer {
 #overlay-text {
     height: 120px;
     padding-top: 20px;
-    left: 39%;
-    bottom: 2%;
+    width: 100%;
 }
 
 }
