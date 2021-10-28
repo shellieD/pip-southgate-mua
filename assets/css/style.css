@@ -647,6 +647,10 @@ footer {
         box-shadow: none;
         margin: 0;
     }
+
+    #thank-you-page-content {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 433px) {
