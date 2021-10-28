@@ -653,6 +653,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 523px) {
+    #thank-you-image img {
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 433px) {
     .menu li {
         margin-right: 15px;
