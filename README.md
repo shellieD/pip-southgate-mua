@@ -47,8 +47,6 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ![Wireframes](assets/wireframes/thank-you-page.png)
 </details>
 
-<br> 
-
 <details>
 <summary>Mobile Wireframes</summary>
 <br> 
@@ -153,7 +151,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 ## Testing
 ----
 
-* browsers and screen sizes/devices
+* browsers and screen sizes/devices - TO FINISH
 
 
 ### Validator testing 
@@ -167,13 +165,13 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 ![W3 Validator Testing - Thank-you Page](assets/testing/thankyou-w3c-validator.png)
 ![W3 Validator Testing - 404 Error Page](assets/testing/404-page-w3c-validator.png)
 
-<summary>HTML (W3C Validator)<summary>
+<summary>HTML (W3C Validator)</summary>
 
 </details>
 
-<br>
 
-* CSS (Jigsaw)
+
+* CSS (Jigsaw) -TO BE ADDED 
 
 <details>
 
@@ -194,7 +192,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 * Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to a ```input type="submit"``` and wrapping it in a form element.  This produced the desired effect and both buttons now look and work the same. 
 
 
-* unfixed
+* unfixed - TO FINISH
 
 ## Deployment 
 ----
