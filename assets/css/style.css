@@ -88,6 +88,10 @@ h1 {
     background-color: #404028;
 }
 
+#overlay-text p {
+    margin-top: 10px;
+}
+
 #overlay-text {
     font-size: 130%;
     font-weight: bold;
@@ -119,8 +123,8 @@ h1 {
     border-radius: 10px;
     letter-spacing: normal;
     position: absolute;
-    bottom: 1%;
-    left: 1%;
+    bottom: 5%;
+    left: 4%;
 }
 
 .contact-button:hover {
@@ -226,7 +230,7 @@ h1 {
 }
 
 #gallery-heading, #price-list-heading, #contact-heading {
-    width: 100%;
+   /* width: 100%;*/
     height: auto;
     margin: auto;
     padding: 20px;
@@ -525,6 +529,10 @@ footer {
     .menu a {
         font-size: 75%;
     }
+
+    #gallery-heading h2, #price-list-heading h2, #contact-heading h2 {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -545,6 +553,10 @@ footer {
     .logo {
         font-size: 125%;
         margin-right: 30px;
+    }
+
+    #gallery-heading h2, #price-list-heading h2, #contact-heading h2 {
+        font-size: 1em;
     }
 }
 
@@ -622,7 +634,7 @@ footer {
     }
 
     #overlay-text {
-        height: 120px;
+        height: 130px;
         padding-top: 20px;
         width: 100%;
     }
