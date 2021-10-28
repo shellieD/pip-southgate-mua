@@ -654,8 +654,20 @@ footer {
 }
 
 @media screen and (max-width: 523px) {
+    #thank-you-message h2 {
+        font-size: 1em;
+    }
+
+    #thank-you-message p {
+        font-size: 0.5em;
+    }
+    
     #thank-you-image img {
         width: 350px;
+    }
+
+    #pip {
+        font-size: 0.8em;
     }
 }
 
@@ -689,6 +701,12 @@ footer {
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 351px) {
+    #thank-you-image img {
+        width: 100%;
+        border-radius: 0;
+    }
 
 @media screen and (max-width: 351px) {
     .menu li {
