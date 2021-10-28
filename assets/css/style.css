@@ -576,6 +576,14 @@ footer {
     #gallery-heading h2, #price-list-heading h2, #contact-heading h2 {
         font-size: 1em;
     }
+
+    .input-field {
+        width: 84%;
+    }
+
+    textarea {
+        width: 84%;
+    }
 }
 
 @media screen and (max-width: 600px) {
