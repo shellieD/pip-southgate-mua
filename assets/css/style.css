@@ -642,7 +642,7 @@ footer {
 
     #price-list, #contact-form, #thank-you-page-content, #error-page {
         clear: both;
-        width: 100%;
+        width: 99%;
         border-radius: 0;
         box-shadow: none;
         margin: 0;
