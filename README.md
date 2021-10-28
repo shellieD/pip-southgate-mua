@@ -10,9 +10,10 @@ Link to deployed site:
 
 [Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
 
+<br>
+
 ## Strategy
 ----
-
 
 ### User Stories
 
@@ -27,6 +28,8 @@ The site's srategy is focused on satisfying the below user stories:-
 * As a user of the website I want to be able to see a full breakdown of the costs involved in hiring a Makeup Artist for a wedding/special occassion.
 
 * As a user of the website I want access to contact information and the ability to submit a request for a callback from the Makeup Artist to show I am interested in her services.
+
+<br>
 
 ## Structure
 ----
@@ -57,6 +60,7 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ![wireframes](assets/wireframes/mobile-thank-you.png)
 
 <summary>Mobile Wireframes</summary>
+
 </details>
 
 <br>
@@ -64,7 +68,7 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ## Design
 ----
 
-The site owner wanted a classic style to the website.  We initially decided on a color scheme incorporating natural tones of subtle pinks and greens and that colour pallete was selected using [ColorSpace](https://mycolor.space/), but during the build I felt that the colour scheme distracted from the imagery and after checking the colour pallete using [EigthShapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) I realised it was not great in terms of contrast/accessibility.  After some discussion with the site owner, we decided to go with a more sleek and simple design.  We chose a simple two colour palette of a dark leafy green, similar to that in the head-dress worn by the client in the hero-image, and this is used in contrast with an off-white.  This colour combination gives the highest rating in compliance with [WCAG 2.0 minimum contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) for text/background.  
+The site owner wanted a classic style to the website.  We initially decided on a color scheme incorporating natural tones of subtle pinks and greens and that colour pallete was selected using [ColorSpace](https://mycolor.space/), but during the build I felt that the colour scheme distracted from the imagery and after checking the colour pallete using [EigthShapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) I realised it was not great in terms of contrast/accessibility.  After some discussion with the site owner, we decided to go with a more sleek and simple design.  We chose a simple three colour palette of a dark leafy green, similar to that in the head-dress worn by the client in the hero-image, a slightly paler shade of leafy green (used only on styling buttons) and these were used in contrast with an off-white.  This dark green colour and off-white combination gives the highest rating in compliance with [WCAG 2.0 minimum contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) for text/background.  
 
 ![Contrast Grid](assets/images/contrast-grid.png)
 
@@ -156,12 +160,43 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 
 ### Validator testing 
-* HTML (W3C Validator)
+
+<details>
+
+![W3 Validator Testing - Home Page](assets/testing/home-w3c-validator.png)
+![W3 Validator Testing - Gallery](assets/testing/gallery-w3c-validator.png)
+![W3 Validator Testing - Price List](assets/testing/prices-w3c-validator.png)
+![W3 Validator Testing - Contact](assets/testing/contact-w3c-validator.png)
+![W3 Validator Testing - Thank-you Page](assets/testing/thankyou-w3c-validator.png)
+![W3 Validator Testing - 404 Error Page](assets/testing/404-page-w3c-validator.png)
+
+<summary>HTML (W3C Validator)<summary>
+
+</details>
+
+<br>
+
 * CSS (Jigsaw)
-* Lighthouse?
+
+<details>
+
+![Lighthouse Testing - Home Page](assets/testing/lighthouse-index.png)
+![Lighthouse Testing - Gallery](assets/testing/lighthouse-gallery.png)
+![lighthouse Testing - Pricelist](assets/testing/lighthouse-pricelist.png)
+![lighthouse Testing - Contact](assets/testing/lighthouse-contact.png)
+![lighthouse Testing - Thank-you age](assets/testing/lighthouse-thankyou.png)
+
+<summary>Lighthouse Testing</summary>
+
+</details>
 
 ### Bugs
-* fixed
+---
+
+* My main issue from the beginning of this project was getting the position of the overlay text in the right place.  For a while I couldn't understand why the overlay text would stay in the same position on the screen and not adjust itself responsiveley, relative to the hero-image.  After many hours of changing numerous settings, I realised that I had not added the ```relative ``` property to the ```#hero-image``` ID and so the overlay text was positioning itself absolute in relation to the viewport.  
+* Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to a ```input type="submit"``` and wrapping it in a form element.  This produced the desired effect and both buttons now look and work the same. 
+
+
 * unfixed
 
 ## Deployment 
@@ -178,19 +213,21 @@ Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shell
 ## Credits
 ----
 
-* I used very similar code for my home page, nav bar and footer as taught in the 'Love Running Walkthrough Project' on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development course.  I did change some styling , but ultimately I was aiming for a simliar layout for my main page and navigation links/footer and this code helped me to get my project off to a good start.
+* I used very similar code for my home page, nav bar and footer as taught in the 'Love Running Walkthrough Project' on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development course.  I did change some styling, but ultimately I was aiming for a simliar layout for my main page and navigation links/footer and as this was my first project this code helped me to get off to a good start.
 
-* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, styling my contact form (which gave me a bit of headache to be honest!!)
+* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, flexbox, and styling my contact form.
 
 * [W3 Schools](https://www.w3schools.com/) - Again a valuable resource for consolidating what I had already learned and finding out more about HTML and CSS properties.
 
-* [ColorSpace](https://mycolor.space/) - I used this website to select a color pallete, I started with a natural dark brown similar to that of the wood in the banner image and used that to generate a pallette of complementing colors.  From a selection of palettes generated, I chose the 'Classy Palette'
+* [ColorSpace](https://mycolor.space/) - I used this website to select a color pallete, I started with a natural dark brown similar to that of the wood in the banner image and used that to generate a pallette of complementing colors.  From a selection of palettes generated, I chose the 'Classy Palette' - although as set out at the beginning of this document, this colorscheme was scrapped during the build process for something cleaner and slicker looking.
 
-* [StackOverflow](https://stackoverflow.com/) 
+* [StackOverflow](https://stackoverflow.com/) - generally a good resource for finding answers to problems I was having that other coders had similar experiences of.
 
-* [Google](http://google.com)
+* [Google](http://google.com) - need I say more?!
 
-* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images from jpeg to webp for better performance
+* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images from jpeg to webp for better performance.
+
+* [Tinypng](https://tinypng.com/) used to compress images for better performance.
 
 * Pip Southgate - for providing all images and content for the website (permissions receieved from any wedding photographers and former-clients to use images).
 
@@ -198,9 +235,20 @@ Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shell
 ----
 * HTML
 * CSS
+
+## Frameworks and Libraries
+
 * FontAwesome
 * Google Fonts
 * GitHub
 * GitPod
 * GitPages
+* Am I Responsive
+* Dev Tools
 
+
+### Acknowledgments
+
+* Huge thank you to Matt Bodden who invested a lot of time helping me understand a few of the (glaringly obvious) issues I was having with styling my buttons, gallery and generally just being a great support when I needed help.
+* The brilliant Slack community for their encouragement, motivation and assistance.
+* My husband, for bringing me plenty of tea, coffee and cake to keep me going :)
