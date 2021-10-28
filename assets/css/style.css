@@ -701,6 +701,14 @@ footer {
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .input-field {
+        width: 77%;
+    }
+
+    textarea {
+        width: 77%;
+    }
 }
 
 @media screen and (max-width: 351px) {
@@ -711,6 +719,14 @@ footer {
     
     #overlay-text {
         height: 143px;
+    }
+
+    .input-field {
+        width: 71%;
+    }
+
+    textarea {
+        width: 71%;
     }
 }
 
