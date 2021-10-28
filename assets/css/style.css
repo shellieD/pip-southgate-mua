@@ -673,6 +673,11 @@ footer {
     .contact-info p {
         letter-spacing: 1px;
     }
+
+    #gallery-heading, #price-list-heading, #contact-heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 351px) {
