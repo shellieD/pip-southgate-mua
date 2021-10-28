@@ -47,7 +47,7 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ![Wireframes](assets/wireframes/thank-you-page.png)
 </details>
 
-<br>
+<br> 
 
 <details>
 <summary>Mobile Wireframes</summary>
