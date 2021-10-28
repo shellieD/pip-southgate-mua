@@ -139,7 +139,13 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 * Thank-you Page
     - The thank-you page will appear only when the contact form has been completed and submitted.  It will display a short message to thank users for getting in contact and confirming the MUA will make contact shortly.
 
+![Thank You Page Screenshot](assets/images/thank-you-screenshot.png)
 <br/>
+
+* Custom 404 Page
+    - I have created a custom 404 error page which will be displayed if any of the links break during future development of the site.  This page is consistent with the design of the main site and contains the same logo, navigaiton and footer.  There is also a link to the home page within the error message so site users are able to easily navigate back to the home page. 
+
+![Error Page Screenshot](assets/images/error-screenshot.png)
 
 ### Features Left to Implement
 
