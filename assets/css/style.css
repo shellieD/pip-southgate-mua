@@ -535,6 +535,7 @@ footer {
     #about-top-left, #about-bottom-right, #image-top-right, #image-bottom-left {
         width: 100%;
     }
+}
 
 @media screen and (max-width: 768px) {
     .menu, .logo {
@@ -545,6 +546,7 @@ footer {
         font-size: 125%;
         margin-right: 30px;
     }
+}
 
 @media screen and (max-width: 600px) {
     .menu ul {
@@ -648,11 +650,11 @@ footer {
 
 /* Media Queries for Responsive Gallery */
 
-@media screen and (max-width: 1773px) {
+@media screen and (max-width: 1774px) {
     #gallery-container {
-        height: 1857px;
+        height: 2145px;
+        }
     }
-}
 
 @media screen and (max-width: 1569px) {
     #gallery-container {
@@ -667,25 +669,25 @@ footer {
 
 @media screen and (max-width: 1528px) {
     #gallery-container {
-        height: 1857px;
+        height: 3354px;
         }
     }
 
 @media screen and (max-width: 1421px) {
     #gallery-container {
-        height: 1740px;
+        height: 3125px;
         }
     }
 
 @media screen and (max-width: 1333px) {
     #gallery-container {
-        height: 1640px;
+        height: 2937px;
         }
     }
 
 @media screen and (max-width: 1249px) {
     #gallery-container {
-        height: 1528px;
+        height: 2757px;
         }
     }
 
@@ -697,11 +699,11 @@ footer {
 
 @media screen and (max-width: 1160px) {
     #gallery-container {
-        height: 2650px;
+        height: 2566px;
     }
 
     #gallery-container > img {
-        width: 33%;
+        width: 32%;
         }
     }
 
