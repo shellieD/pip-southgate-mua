@@ -9,6 +9,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
+/* Ensures page containers do not break out into header */
+/* for gallery, prices, contact, thank-you and 404 pages */
+
 body {
     top: 150px;
 }
@@ -29,7 +33,7 @@ h1 {
     text-decoration: none;
 }
 
-/* end of headings and logos */
+/* END of headings and logos */
 
 /* navigation links */
 
@@ -62,7 +66,7 @@ h1 {
     border-bottom: 1px #404028 solid;
 }
 
-/* end of navigation links */
+/* END of navigation links */
 
 /* hero image and overlay text */
 
@@ -131,9 +135,9 @@ h1 {
     transform: scale(1.2);
 }
 
-/* end of hero image and overlay text */
+/* END of hero image and overlay text */
 
-/* About section images and text boxes*/
+/* About section text boxes */
 
 #flex-container-top, #flex-container-bottom {
     width: 100%;
@@ -192,6 +196,10 @@ h1 {
     padding-top: 30px;
 }
 
+/* END of about section text boxes */
+
+/* About section images */
+
 #image-top-right, #image-bottom-left {
     width: 750px;
     height: auto;
@@ -211,7 +219,7 @@ h1 {
     text-align: center;
 }
 
- /*end of about page images and text boxes */
+ /* END of about section images */
 
 /* photo gallery */
 
@@ -222,7 +230,7 @@ h1 {
     margin: auto;
 }
 
-#gallery-heading h2, #price-list-heading h2, #contact-heading h2 {
+#gallery-heading h2, #price-list-heading h2, #contact-heading h2, #thank-you-message h2, #error-message h2 {
     color: #404028;
     text-transform: uppercase;
     font-family: 'Poiret One', sans-serif;
@@ -264,12 +272,14 @@ h1 {
     margin: 5px;
 }
 
+/* Applies effect to images to make them scale up when hovered over */
+
 .zoom:hover {
     transform: scale(1.4);
     transition: 1s ease-in-out;
 }
 
-/* end of photo gallery */
+/* END of photo gallery */
 
 /* Price List */
 
@@ -532,6 +542,14 @@ footer {
 
     #gallery-heading h2, #price-list-heading h2, #contact-heading h2 {
         font-size: 1.2em;
+    }
+
+    .input-field {
+        width: 88%;
+    }
+
+    textarea {
+        width: 88%;
     }
 }
 
