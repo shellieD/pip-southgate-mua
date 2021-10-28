@@ -37,30 +37,27 @@ The site's srategy is focused on satisfying the below user stories:-
 The site will consist of four main pages; Home, Gallery, Pricelist and Contact, and a hidden thank you page which will only appear when the contact form has been completed and submitted:- 
 
 <details>
+<summary>Desktop Wireframes<summary>
+<br>
 
 ![Wireframes](assets/wireframes/home.png)
 ![Wireframes](assets/wireframes/gallery.png)
 ![Wireframes](assets/wireframes/pricelist.png)
 ![Wireframes](assets/wireframes/contact.png)
 ![Wireframes](assets/wireframes/thank-you-page.png)
-
-
-<summary>Desktop Wireframes<summary>
-
 </details>
 
 <br>
 
 <details>
+<summary>Mobile Wireframes</summary>
+<br> 
 
 ![wireframes](assets/wireframes/mobile-home.png)
 ![wireframes](assets/wireframes/mobile-gallery.png)
 ![wireframes](assets/wireframes/mobile-pricelist.png)
 ![wireframes](assets/wireframes/mobile-contact.png)
 ![wireframes](assets/wireframes/mobile-thank-you.png)
-
-<summary>Mobile Wireframes</summary>
-
 </details>
 
 <br>
