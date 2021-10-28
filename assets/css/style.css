@@ -636,7 +636,9 @@ footer {
 }
 
 @media screen and (max-width: 351px) {
-
+    #overlay-text {
+        height: 143px;
+    }
 }
 
 /* Media Queries for Responsive Gallery */
