@@ -250,6 +250,7 @@ h1 {
     border: 2px #404028 solid;
     box-shadow: 20px 20px 50px;
     border-radius: 20px;
+    max-width: 1729px;
 }  
 
 #gallery-container > img {
