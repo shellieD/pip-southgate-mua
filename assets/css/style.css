@@ -723,6 +723,7 @@ footer {
 
     .input-field {
         width: 71%;
+        padding: 10px;
     }
 
     textarea {
