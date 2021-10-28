@@ -106,8 +106,9 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <br/>
 
 * Home Page Features Continued...
-    - The home page also contains two information boxes and two further images.  The first information box provides the site user with a brief introduction to Pip Southgate, her training, experience, style and ethos.  There is also a link to encourage the user to visit the gallery.  This opens in a new tab, so the user can easily switch between tabs or go back to the page they were viewing by using the navigation menu. 
-    - The second information box provides key information about the services provided - what to expect at a Makeup Trial, what to expect on wedding day and other services available.  There is a link here to view the pricelist of the services which again, opens in a new tab.
+    - The home page also contains two information boxes and two further images.  The first information box provides the site user with a brief introduction to Pip Southgate, her training, experience, style and ethos.  There is also a link to encourage the user to visit the gallery.  
+    - The second information box provides key information about the services provided - what to expect at a Makeup Trial, what to expect on wedding day and other services available.  There is a link here to view the pricelist of the services.
+    - The information boxes are styled with a border and box shadow matching the color of the text to allow the information boxes to stand out.
     - As a decorative feature for this section, there are two images of the Makeup Artist applying makeup to her clients.  These are displayed on larger screens, but are then hidden on smaller screens, such as mobile phones. 
 
 <br/>
