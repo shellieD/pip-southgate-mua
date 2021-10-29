@@ -163,6 +163,10 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 ### Validator testing 
 
+* [CSS (Jigsaw)](http://jigsaw.w3.org/css-validator/validator$link) 
+
+<br>
+
 <details>
 
 ![W3 Validator Testing - Home Page](assets/testing/home-w3c-validator.png)
@@ -176,9 +180,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 </details>
 
-
-
-* CSS (Jigsaw) -TO BE ADDED 
+<br>
 
 <details>
 
@@ -191,6 +193,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <summary>Lighthouse Testing</summary>
 
 </details>
+
 
 ### Bugs
 ---
