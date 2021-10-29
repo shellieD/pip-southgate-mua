@@ -186,9 +186,13 @@ NEED TO COMPLETE THIS PART - WHICH BROWERS/DEVICES HAVE I TESTED ON? HOW HAVE I 
 <details>
 
 ![Lighthouse Testing - Home Page](assets/testing/lighthouse-index.png)
+
 ![Lighthouse Testing - Gallery](assets/testing/lighthouse-gallery.png)
+
 ![lighthouse Testing - Pricelist](assets/testing/lighthouse-pricelist.png)
+
 ![lighthouse Testing - Contact](assets/testing/lighthouse-contact.png)
+
 ![lighthouse Testing - Thank-you age](assets/testing/lighthouse-thankyou.png)
 
 <summary>Lighthouse Testing</summary>
