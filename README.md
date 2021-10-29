@@ -144,9 +144,10 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 ### Features Left to Implement
 
-* Create an events page which will show upcoming wedding fayres where potential client's can meet Pip Southgate face-to-face to ask questions.
+* Create an events page which will show upcoming wedding fayres where potential clients can meet Pip Southgate face-to-face to ask questions.
 * Create a customer reviews page. 
 * Add a drop down menu to the 'home' link in the navigation menu to link to events page and customer reviews page.
+* Create the back-end of the form once I have acquired the necessary skills to ensure it is fully functioning and the site owner is alerted when a potential client would like a callback. 
 
 
 ## Testing
