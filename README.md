@@ -126,6 +126,9 @@ Google Fonts was used to select a classy and stylish looking font for the main l
     - Number picker - to chose the number of people requiring makeup.
     - Text area to add more information or a message for the MUA.
     - Submit button - zoom effect.  This button currently links to a thank-you page where a thank you message is displayed to let the site user know their information has been submitted. 
+    - Each field has a ```required``` attribute applied to ensure users input all fields before submiting the form
+
+![Contact Form Screenshot](assets/images/form.png)
 
 
 * Thank-you Page
@@ -149,7 +152,36 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 ## Testing
 ----
 
-NEED TO COMPLETE THIS PART - WHICH BROWERS/DEVICES HAVE I TESTED ON? HOW HAVE I TESTED FUNCTIONALITY? ETC.....
+I have regularly tested all aspects of the site functionality including all links, inputs and responsiveness through Dev Tools in Chrome for the following devices:-
+
+* Galaxy S5
+* Pixel 3
+* Pixel 2 XL
+* iPhone 5/SE
+* iPhone 6/7/8
+* iPhone 6/7/8 Plus
+* iPhone X
+* iPhone 11 Pro
+* iPad
+* iPad Pro
+* Surface Due
+* Galaxy Fold
+* Nest Hub
+* Nest Hub Max
+
+I have also tested the site physically on the below devices:
+
+* iPhone 13 pro
+* iPhone 11 Pro
+* Mac Book Pro 
+* Dell Lattitude 5310 (Laptop)
+
+I have also regularly tested the site using the following browsers:-
+
+* Chrome
+* Safari
+* Firefox
+* Edge
 
 
 ### Validator testing 
