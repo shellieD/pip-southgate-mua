@@ -10,7 +10,6 @@ Link to deployed site:
 
 [Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
 
-<br>
 
 ## Strategy
 ----
@@ -29,7 +28,7 @@ The site's srategy is focused on satisfying the below user stories:-
 
 * As a user of the website I want access to contact information and the ability to submit a request for a callback from the Makeup Artist to show I am interested in her services.
 
-<br>
+
 
 ## Structure
 ----
@@ -58,7 +57,6 @@ The site will consist of four main pages; Home, Gallery, Pricelist and Contact, 
 ![wireframes](assets/wireframes/mobile-thank-you.png)
 </details>
 
-<br>
 
 ## Design
 ----
@@ -94,8 +92,6 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 ![Footer](assets/images/footer.png)   
   
 
-<br/> 
-
 * Home Page Features
     - The Hero-image is high quality photograph of former client of Pip Southgate on her weddig day.  The image is quite striking with the contrast between the bright orange hair of the client and the natural tones in her headress. This image was chosen as it showcases the natural style Pip Southgate has with her makeup application.
     - There is a text overlay box which briefly summarises the areas covered by the MUA, but leaves out enough information to entice the site user to make an enquiry.
@@ -103,7 +99,6 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 ![Hero Image and Overlay Text](assets/images/hero-image.png)   
 
-<br/>
 
 * Home Page Features Continued...
     - The home page also contains two information boxes and two further images.  The first information box provides the site user with a brief introduction to Pip Southgate, her training, experience, style and ethos.  There is also a link to encourage the user to visit the gallery.  
@@ -111,7 +106,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
     - The information boxes are styled with a border and box shadow matching the color of the text to allow the information boxes to stand out.
     - As a decorative feature for this section, there are two images of the Makeup Artist applying makeup to her clients.  These are displayed on larger screens, but are then hidden on smaller screens, such as mobile phones. 
 
-<br/>
+
 
 * Gallery Features
     - A masonry style gallery has been used to show images of the Makeup Artists former clients.  A hover effect has been applied to the images so they scale up once hovered over. 
@@ -119,13 +114,11 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 ![Screenshot of Gallery and zoom effect](assets/images/photo-gallery.png)
 
-<br/>
 
 * Price List Features
     - Full breakdown of services
-    - Clickable button to link to contact page - 
+    - Clickable button to link to contact page - zoom effect when hovered over to grab attention of user.
 
-<br/>
 
 * Contact Form
     - Input fields to submit name, email address, and venue of event.
@@ -133,8 +126,6 @@ Google Fonts was used to select a classy and stylish looking font for the main l
     - Number picker - to chose the number of people requiring makeup.
     - Text area to add more information or a message for the MUA.
     - Submit button - zoom effect.  This button currently links to a thank-you page where a thank you message is displayed to let the site user know their information has been submitted. 
-
-<br/>
 
 
 * Thank-you Page
@@ -144,7 +135,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <br/>
 
 * Custom 404 Page
-    - I have created a custom 404 error page which will be displayed if any of the links break during future development of the site.  This page is consistent with the design of the main site and contains the same logo, navigaiton and footer.  There is also a link to the home page within the error message so site users are able to easily navigate back to the home page. 
+    - I have created a custom 404 error page which will be displayed if any of the links break during future development of the site.  This page is consistent with the design of the main site and contains the same logo, navigation and footer.  There is also a link to the home page within the error message so site users are able to easily navigate back to the home page. 
 
 ![Error Page Screenshot](assets/images/error-screenshot.png)
 
@@ -193,8 +184,6 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <summary>Lighthouse Testing</summary>
 
 </details>
-
-<br>
 
 
 ### Bugs
