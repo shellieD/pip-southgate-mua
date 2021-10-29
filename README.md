@@ -203,13 +203,23 @@ The full site has been passed through wave.webaim.org to check for accessibility
 ### Bugs
 ---
 
-* One of the issues I had from the beginning of this project was getting the position of the overlay text in the right place.  For a while I couldn't understand why the overlay text would stay in the same position on the screen and not adjust itself responsively, relative to the hero-image.  After many hours of changing numerous settings, I realised that I had not added the ```relative ``` property to the ```#hero-image``` ID and so the overlay text was positioning itself absolute in relation to the ```#hero-image-container``` and not the ```#hero-image``` itself.  
-
-* Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to a ```<button>Contact Me</button>``` reusing the class attribute attached to the submit button on the contact page.  This produced the desired effect and both buttons now look and work the same. 
+* One of the issues I had from the beginning of this project was getting the position of the overlay text in the right place.  For a while I couldn't understand why the overlay text would stay in the same position on the screen and not adjust itself responsively, relative to the hero-image.  After many hours of fiddling around with the CSS, I realised that I had not added the ```relative ``` property to the ```#hero-image``` ID and so the overlay text was positioning itself absolute in relation to the ```#hero-image-container``` and not the ```#hero-image``` itself.  
 
 * The image gallery has been one of my biggest problems in this project.  I started off by using a column grid to create a masonry gallery - similar to that used in the Love Running Project on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development Course.  This worked fine and looked great, until I added a hover effect to the images to allow them to scale up once hovered over.  Overall the effect was quite nice, however I immediately noticed that three of the top images would cut off after scaling up - which didn't look good.  After a discussion with a fellow student, I changed the gallery to flex box which fixed this issue, but brought a much larger issue when it came to making the gallery responsive.  On smaller screen sizes, the images would break out of the container and off the screen, or would break off the screen when scaling up with the hover effect.  I rectified this by adding (what felt like a million) media queries to alter the height of the container and the width of the images, depending on the screen sizes they were viewed on.  I used the dev tools to check for numerous devices and was happy with the results.... UNTIL...... I checked the deployed site on my mobile and the gallery looked NOTHING like I expected it to look like.  Will this bug remain unfixed???? or will I find a way to resolve it in the nick of time before project submission?????  Another issue I see with the way this gallery has been created is that it will be difficult to add new images to the gallery in the future.  With the benefit of hindsight, I can see that a carousel style gallery using pure CSS could have probably worked better than what I have ended up with.  In future development of this site, I would like to create a more robust gallery that is easier to update and has a slicker finish to it.
 
-* Bugs to fix - TO BE DISCOVERED
+### - Bugs to fix 
+
+* Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to from:
+
+ ``` <a href="contact.html class="enquire-button">Contact Me</a>``` 
+ 
+ to 
+
+```<form action="contact.html" method="GET" aria-label="Click to open contact page"> <input type="submit" value="Contact Me" class="enquire-button"> </form>``` 
+                
+reusing the class attribute attached to the submit button on the contact page so as not to repeat code.  This produced the desired effect and both buttons now look and work the same. 
+
+Whilst this is not semantically perfect, for the purpose of this project and given the time constraints, this is a suitable workaround for the time-being.  This is a bug I would like to rectify in the future when I have further understanding of applying CSS to different elements to maintain consistency across site.
 
 
 
