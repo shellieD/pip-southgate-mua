@@ -194,6 +194,8 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 </details>
 
+<br>
+
 
 ### Bugs
 ---
@@ -254,7 +256,6 @@ Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shell
 * GitPages
 * Am I Responsive
 * Dev Tools
-
 
 ### Acknowledgments
 
