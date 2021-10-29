@@ -162,6 +162,9 @@ NEED TO COMPLETE THIS PART - WHICH BROWERS/DEVICES HAVE I TESTED ON? HOW HAVE I 
 ![W3C CSS Validator Results (Jigsaw)](assets/testing/jigsaw-css-validator.png)
 ![W3C CSS Validator Warnings (Jigsaw)](assets/testing/jigsaw-css-validator-warnings.png)
 
+<summary>CSS (W3C Validator)</summary>
+
+</details>
 
 <br>
 
