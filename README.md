@@ -154,18 +154,25 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 
 ### Validator testing 
 
-* [CSS (Jigsaw)](http://jigsaw.w3.org/css-validator/validator$link) 
+* CSS file has been run through W3C CSS Validator and no errors have been found.  Two warnings have been found although these related to imported stylesheets which are not checked by the validator.
+* All HTML files have been passed through the W3C HTML Validator and no errors have been found. 
+
+<details>
+
+![W3C CSS Validator Results (Jigsaw)](assets/testing/jigsaw-css-validator.png)
+![W3C CSS Validator Warnings (Jigsaw)](assets/testing/jigsaw-css-validator-warnings.png)
+
 
 <br>
 
 <details>
 
-![W3 Validator Testing - Home Page](assets/testing/home-w3c-validator.png)
-![W3 Validator Testing - Gallery](assets/testing/gallery-w3c-validator.png)
-![W3 Validator Testing - Price List](assets/testing/prices-w3c-validator.png)
-![W3 Validator Testing - Contact](assets/testing/contact-w3c-validator.png)
-![W3 Validator Testing - Thank-you Page](assets/testing/thankyou-w3c-validator.png)
-![W3 Validator Testing - 404 Error Page](assets/testing/404-page-w3c-validator.png)
+![W3C Validator Testing - Home Page](assets/testing/home-w3c-validator.png)
+![W3C Validator Testing - Gallery](assets/testing/gallery-w3c-validator.png)
+![W3C Validator Testing - Price List](assets/testing/prices-w3c-validator.png)
+![W3C Validator Testing - Contact](assets/testing/contact-w3c-validator.png)
+![W3C Validator Testing - Thank-you Page](assets/testing/thankyou-w3c-validator.png)
+![W3C Validator Testing - 404 Error Page](assets/testing/404-page-w3c-validator.png)
 
 <summary>HTML (W3C Validator)</summary>
 
@@ -184,6 +191,8 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 <summary>Lighthouse Testing</summary>
 
 </details>
+
+ACCESSABILITY TESTING - WAVE WEBAIM - TO DO
 
 
 ### Bugs
