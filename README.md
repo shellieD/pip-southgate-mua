@@ -149,7 +149,7 @@ Google Fonts was used to select a classy and stylish looking font for the main l
 ## Testing
 ----
 
-* browsers and screen sizes/devices - TO FINISH
+NEED TO COMPLETE THIS PART - WHICH BROWERS/DEVICES HAVE I TESTED ON? HOW HAVE I TESTED FUNCTIONALITY? ETC.....
 
 
 ### Validator testing 
