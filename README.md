@@ -314,5 +314,5 @@ Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shell
 
 * Huge thank you to Matt Bodden who invested a lot of time helping me understand a few of the (glaringly obvious) issues I was having with styling my buttons, gallery and generally just being a great support when I needed help.
 * The brilliant Slack community for their encouragement, motivation and assistance.
-* My mentor Brian O'Hare
+* My mentor Brian O'Hare for his feedback and support.
 * My husband, for bringing me plenty of tea, coffee and cake to keep me going :)
