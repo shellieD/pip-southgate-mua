@@ -258,7 +258,10 @@ reusing the class attribute attached to the submit button on the contact page so
 
 Whilst this is not semantically perfect, for the purpose of this project and given the time constraints, this is a suitable workaround for the time-being.  This is a bug I would like to rectify in the future when I have further understanding of applying CSS to different elements to maintain consistency across site.
 
+* The position on the contact page of the date and time input fields are not quite in the right place on my iPhone 11 using Safar and Chrome, although I have noted from others who have tested the website on Samsung devices that the position shows as it should.  I need to do further research into why this could be happening and find a solution, however given the time constraints of this project, this is not something I have yet managed to do.  Below are the screenshots of how the form should look (using Dev Tools in Chrome) and how it actually appears on my iPhone 11 using Safari.
 
+![How the contact form looks in devtools](assets/testing/contact-form-position-devtools.png)
+![How the contact form looks on my iPhone 11 in Safari](assets/testing/contact-form-position-error.png)
 
 ## Deployment 
 ----
