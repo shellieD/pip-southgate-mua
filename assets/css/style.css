@@ -451,11 +451,6 @@ h1 {
 	margin: 10px 50px 10px 50px;
 }
 
-#date, #time {
-	box-sizing: border-box;
-	width: 91%;
-}
-
 textarea {
 	background-color: #FAFAFA;
 	border: 1px solid #797861;
@@ -939,6 +934,11 @@ footer {
 		width: 100%;
 		border-radius: 10px;
 		margin: 0;
+	}
+
+	#date, 
+	#time {
+		margin-top: 10px;
 	}
 }
 
