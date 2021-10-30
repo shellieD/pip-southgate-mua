@@ -219,13 +219,8 @@ I have also regularly tested the site using the following browsers:-
 <details>
 
 ![Lighthouse Testing - Home Page](assets/testing/lighthouse-index.png)
-
-![Lighthouse Testing - Gallery](assets/testing/lighthouse-gallery.png)
-
 ![lighthouse Testing - Pricelist](assets/testing/lighthouse-pricelist.png)
-
 ![lighthouse Testing - Contact](assets/testing/lighthouse-contact.png)
-
 ![lighthouse Testing - Thank-you age](assets/testing/lighthouse-thankyou.png)
 
 <summary>Lighthouse Testing</summary>
